@@ -1,0 +1,468 @@
+
+/*--------------------------------------------------------- Fonts & Variables ----------------------------------------------------------*/
+@font-face {
+    font-family: "swatch";
+    src: url(../fonts/SWATRG.ttf);
+}
+
+@font-face {
+    font-family: "cambria";
+    src: url(../fonts/cambria.ttc);
+}
+
+
+$font-headers: swatch, sans-serif;
+$font-body: cambria, sans-serif;
+
+
+
+/*---------------------------------------------------------------- Global ----------------------------------------------------------------*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  /*background: #777777;*/
+  font-family: $font-body;
+  background-image: url(../img/background-blue.jpg);
+}
+
+a {
+	font-family: $font-headers;
+      color: #ccc;
+
+    }
+
+.clearfix {
+  clear: both;
+}
+
+
+/*---------------------------------------------------------------- Navigation ----------------------------------------------------------------*/
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+  
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 20px;
+  
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+
+}
+.navbar-static-top {
+  width: 100%;
+  background-image: url(../img/honeycomb.png);
+  background-size: cover;
+  
+
+}
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+ 
+
+  
+}
+
+.navbar-header a {
+	padding: 0;
+	margin: 0;	
+}
+
+#brand {
+	margin-top: 2px;
+	margin-left: 10px;
+
+}
+
+.nav li {
+  margin-right: 1px;
+  border: 1px solid #000;
+  border-radius: 5px;
+
+}
+
+.nav li:hover {
+  background-color: #024788;
+  color: #ccc !important;  
+  border: 1px solid #fff;
+  border-radius: 5px;
+  opacity: .8;
+  font-weight: bold;
+  
+  
+
+}
+
+ul nav.navbar-nav li a {
+  color: #ccc;
+  text-transform: capitalize !important;
+  font-family: $font-headers;
+  font-size: 1.2em;
+  
+
+}
+
+/*===========================================MMS BANNER ================================*/
+
+#manna {  
+  width: 90%;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+
+
+#manna-container {  
+  width: 100%;
+}
+
+#manna-container img {
+  width: 100%;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++ CONTENT ++++++++++++++++++++++++++++++++++++*/
+
+/*--------------------------------------------------------------------------- Contact ---------------------------------------------------------------*/
+
+.content {
+  background-image: url(../img/content-gradient.png);
+  background-repeat: repeat-y;
+  background-size: contain;
+  box-shadow: 4px 4px 6px #000;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #191919;
+  text-align: center;
+
+}
+
+#mms-contact {
+  margin-top: 0;
+  padding: 20px;
+  margin-bottom: 20px;
+  
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------- Pricing ---------------------------------------------------------------*/
+
+
+
+
+
+/*--------------------------------------------------------------------------- Portfolio -------------------------------------------------------------*/
+.portfolio-container {
+  width: 80%;
+  margin: auto;
+}
+
+#heading {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 4em;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+}
+
+#portfolio-nav {
+   
+
+}
+
+#portfolio-nav-ul {
+  float: left;
+  font-size: 1.3em;
+
+  
+}
+
+.portfolio-nav-li {
+  list-style: none;  
+  padding: 0 10px;
+  margin-bottom: 20px;
+} 
+
+.portfolio-nav-a {
+  color: #fff;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-family: $font-body;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.portfolio-nav-li.current a, .portfolio-nav-a:hover {
+
+  color: #ccc !important;
+  border: 1px solid #fff;
+  padding: 10px;
+  background: #024788 url(../img/honeycomb.png);
+  border-radius: 5px;
+  
+}
+
+
+
+.portfolio-thumbs {
+  width: 78%;
+  float: right;
+  display: inline-block;
+
+}
+
+
+
+#gallery {
+  
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.gallery-li {
+  display: block;
+  float: left;
+  width: 23%; /*-- size of thumbs --*/
+  cursor: pointer;  
+  box-sizing: border-box;
+  margin: 0 12px 7px 0;
+  position: relative;
+}
+
+#gallery img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+/*overlay style */
+
+.overlay {
+  display: none;
+  background: #024788 url(../img/honeycomb.png) no-repeat top left;
+  background-size: cover;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  pointer-events:none;
+  text-align: center;
+}
+
+.overlay h3 {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/*----------------------------------------------------------------------------- About ---------------------------------------------------------------*/
+
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+
+/*---------------------------------------------------------------- FOOTER ----------------------------------------------------------------*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+ 
+  
+}
+
+.footer p {
+	
+	
+}
+
+.copyright {
+  color: #FFEBCD;
+}
+
+.footer .container {
+	min-height: 50px;
+	border: 1px solid #222222;
+	background-color: #222222;
+	padding: 0 20px;
+	border-radius: 4px;
+	padding-top: 13px;
+      background-image: url(../img/honeycomb.png);
+}
+
+#designer {
+
+  margin-right: 200px;
+}
+
+
+
+.flex-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.flex-item:nth-child(1) {
+  -webkit-box-ordinal-group: 1;
+  -moz-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*-----------------------------------------------------------Media Querys-------------------------------------------------------------------*/
+
+@media(max-width: 1280px) {
+  /*-------------------- Portfolio ------------------------------*/
+  .gallery-li {
+    width: 30%; /*-- size of thumbs --*/
+    }
+
+  .portfolio-thumbs {
+    width: 60%;
+    
+  }
+  /*--------------------------------------------------------------*/
+
+  /*----------------- Home -----------------------------------*/
+
+
+
+
+
+}
+
+@media(max-width:800px) {
+  /*-------------------- Portfolio ------------------------------*/
+  .gallery-li {
+    width: 25%; /*-- size of thumbs --*/
+    }
+
+  .portfolio-thumbs {
+    float: none;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+  }
+  
+  #portfolio-nav {
+    float: none;
+    width: 20%;
+
+  }
+
+  #heading {
+  display: none;
+
+  }
+
+  /*--------------------------------------------------------------*/
+
+  /*----------------- Home -----------------------------------*/
+  .carousel .item {
+    
+    height: auto;
+  }
+  .item img {
+    content: url(../img/photo1-mobile.jpg);
+  }
+
+
+
+
+
+
+}
