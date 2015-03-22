@@ -80,53 +80,42 @@
 
 	<div class="container">
 		<div class="row">
-		<div class="col-md-4">
-			<div class="content">
-				<h1>Call Me</h1>
-					<div id="mms-contact">
-						<h1>Nick Fisichella</h1>
-						<h3>(727)743-1539</h3>
-						<h3>nick@mannams.com</h3>
-					</div>
-				<h1>Or Submit The Form <span class="glyphicon glyphicon-arrow-right"></h1>
-			</div>
-		</div>
-		<div class="col-md-8">
-			<div class="content">
-				
-				<div id="contact_form_holder">
-				    <form action="Contact.html" method="post" id="contact_form"><!-- set index.html to name of  page this form is in -->
-				        <h1>Contact Us</h1>
-				        <div id="topic_error" class="error"><img src="img/error.png" /> What category should this be filed in?</div>
-				        <div>
-				            <select name="topic" id="topic">
-				                <option value="">Please select a topic...</option>
-				                <option value=" Option 1 ">Videography</option>
-				                <option value=" Option 2 ">Photography</option>
-				                <option value=" Option 3 ">Other</option>
-				            </select>
-				        </div>
-				        NAME:<div id="name_error" class="error"><img src="img/error.png" /> We don't talk to strangers.</div>
-				        <div><input class="contact_name" type="text" name="name" id="name" /></div>
-				        EMAIL:<div id="email_error" class="error"><img src="img/error.png" /> You don't want us to answer?</div>
-				        <div><input class="contact_email" type="text" name="email" id="email" /></div>
-				        SUBJECT:<div id="subject_error" class="error"><img src="img/error.png" /> What's the purpose of this email?</div>
-				        <div><input class="contact_subject" type="text" name="subject" id="subject" /></div>
-				        MESSAGE:<div id="message_error" class="error"><img src="img/error.png" /> Forgot why you came here?</div>
-				        <div><textarea class="contact_message" name="message" id="message"></textarea></div>
-				        <div id="mail_success" class="success"><img src="img/success.png" /> Thank you. The mailman is on his way.</div>
-				        <div id="mail_fail" class="error"><img src="img/error.png" /> Sorry, we don't know what happened. Please try again later.</div>
-				        
-				        <div id="cf_submit_p">
-				            <input class="submit" type="submit" id="send_message" value="Send Message">
-				        </div>
-				    </form>
-				 </div>
-				</div>
+            <div class="col-md-4">
+                <div class="contact-container">
+                    <h1>Call Me</h1>
+                        <div id="mms-contact">
+                            <h1>Nick Fisichella</h1>
+                            <h3>(727)743-1539</h3>
+                            <h3>nick@mannams.com</h3>
+                        </div>
+                    <h1>Or Submit The Form <span class="glyphicon glyphicon-arrow-right"></span></h1>
+                </div>
+            </div>
+            <div class="col-md-8">
+
+                <div class="contact-container">
+                    <form method="post" action="contact-form-proc.php" name="contactform" id="contactform">
+                        <p>
+                            <label for="fullname">Your Name</label><br/>
+                            <input type="text" id="fullname" size="30" required/>
+                        </p>
+                        <p>
+                            <label for="email">Email Address</label><br/>
+                            <input type="email" id="email" size="30" required/>
+                        </p>
+
+                        <p>
+                            <label for="messege">Tell us what you're looking for?</label><br/>
+                            <textarea type="email" id="messege" rows="5" cols="60" required></textarea>
+                        </p>
+                        <input type="submit" name="submit" value="Submit Form" id="submit"/>
+                    </form>
+                </div>
+
 			</div><!--col-md-8-->
-		</div>
-	</div>
-	<div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
 	
 
 
