@@ -17,7 +17,7 @@ $name = $_POST["fullname"];
 $email = $_POST["email"};
 $messege = $_POST["messege"];
 
-mail(bool mail ( 'dominofoe@yahoo.com' , 'New form submission from MMS' , "Contact Info: Name: $name, Email: $email, Message: $messege". "from: $name <$email>" );
+mail(bool mail ( 'nick@mannams.com' , 'New form submission from MMS' , "Contact Info: Name: $name, Email: $email, Message: $messege". "from: $name <$email>" );
 
 header("Location: thank-you.html");
 
