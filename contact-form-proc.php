@@ -19,4 +19,22 @@ $messege = $_POST["messege"];
 
 mail(bool mail ( 'dominofoe@yahoo.com' , 'New form submission from MMS' , "Contact Info: Name: $name, Email: $email, Message: $messege" )
 
-header("Location: thank-you.html");
+header("from: Manna Media Solutions", "Location: thank-you.html");
+
+<script>
+document.contactform.onsubmit=function() {
+    if(document.contactform.fullname.value == '')
+    {
+        return false;
+    }
+    else if(document.contactform.email.value == '')
+    {
+        return false;
+    }
+    else if(document.contactform.messege.value == '')
+    {
+        return false;
+    }
+    return true;
+}
+</script>

@@ -151,64 +151,65 @@ ul nav.navbar-nav li a {
   color: #191919;
   text-align: center;
   margin-top: 50px;
+  Margin-bottom: 50px;
 }
 
-/* line 166, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 #mms-contact {
   margin-top: 0;
   padding: 20px;
   margin-bottom: 20px;
 }
 
-/* line 172, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 #contactform {
   padding: 20px;
 }
 
-/* line 176, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 #contactform label {
   margin-top: 40px;
   font-size: 1.5em;
 }
 
-/* line 181, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 #contactform input {
   font-size: 1.5em;
   border-radius: 10px;
   text-align: center;
 }
 
-/* line 187, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 #contactform textarea {
   font-size: 1.5em;
   border-radius: 10px;
 }
 
-/* line 192, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 #submit {
   font-size: 1.5em;
   border-radius: 10px;
 }
 
-/* line 197, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 #submit:hover {
   box-shadow: 0 0 10px #013768;
 }
 
-/* line 201, ../sass/style.scss */
+/* line 202, ../sass/style.scss */
 #submit:active {
   box-shadow: inset 0 0 10px #013768;
 }
 
 /*---------------------------------------------------------------------------- Pricing ---------------------------------------------------------------*/
 /*--------------------------------------------------------------------------- Portfolio -------------------------------------------------------------*/
-/* line 225, ../sass/style.scss */
+/* line 226, ../sass/style.scss */
 .portfolio-container {
   width: 80%;
   margin: auto;
 }
 
-/* line 230, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 #heading {
   text-align: center;
   margin-bottom: 50px;
@@ -217,20 +218,20 @@ ul nav.navbar-nav li a {
   text-shadow: 2px 2px 2px #000;
 }
 
-/* line 243, ../sass/style.scss */
+/* line 244, ../sass/style.scss */
 #portfolio-nav-ul {
   float: left;
   font-size: 1.3em;
 }
 
-/* line 250, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 .portfolio-nav-li {
   list-style: none;
   padding: 0 10px;
   margin-bottom: 20px;
 }
 
-/* line 256, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 .portfolio-nav-a {
   color: #fff;
   padding-bottom: 5px;
@@ -240,7 +241,7 @@ ul nav.navbar-nav li a {
   text-shadow: 2px 2px 2px #000;
 }
 
-/* line 265, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 .portfolio-nav-li.current a, .portfolio-nav-a:hover {
   color: #ccc !important;
   border: 1px solid #fff;
@@ -249,14 +250,14 @@ ul nav.navbar-nav li a {
   border-radius: 5px;
 }
 
-/* line 277, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 .portfolio-thumbs {
   width: 78%;
   float: right;
   display: inline-block;
 }
 
-/* line 286, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 #gallery {
   width: 100%;
   list-style: none;
@@ -264,7 +265,7 @@ ul nav.navbar-nav li a {
   padding: 0;
 }
 
-/* line 295, ../sass/style.scss */
+/* line 296, ../sass/style.scss */
 .gallery-li {
   display: block;
   float: left;
@@ -276,14 +277,14 @@ ul nav.navbar-nav li a {
   position: relative;
 }
 
-/* line 305, ../sass/style.scss */
+/* line 306, ../sass/style.scss */
 #gallery img {
   width: 100%;
   border-radius: 5px;
 }
 
 /*overlay style */
-/* line 313, ../sass/style.scss */
+/* line 314, ../sass/style.scss */
 .overlay {
   display: none;
   background: #024788 url(../img/honeycomb.png) no-repeat top left;
@@ -302,7 +303,7 @@ ul nav.navbar-nav li a {
   text-align: center;
 }
 
-/* line 332, ../sass/style.scss */
+/* line 333, ../sass/style.scss */
 .overlay h3 {
   margin: 0;
   padding: 0;
@@ -311,7 +312,7 @@ ul nav.navbar-nav li a {
 /*----------------------------------------------------------------------------- About ---------------------------------------------------------------*/
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*---------------------------------------------------------------- FOOTER ----------------------------------------------------------------*/
-/* line 350, ../sass/style.scss */
+/* line 351, ../sass/style.scss */
 .footer {
   position: absolute;
   bottom: 0;
@@ -320,12 +321,12 @@ ul nav.navbar-nav li a {
   height: 60px;
 }
 
-/* line 365, ../sass/style.scss */
+/* line 366, ../sass/style.scss */
 .copyright {
   color: #FFEBCD;
 }
 
-/* line 369, ../sass/style.scss */
+/* line 370, ../sass/style.scss */
 .footer .container {
   min-height: 50px;
   border: 1px solid #222222;
@@ -336,12 +337,12 @@ ul nav.navbar-nav li a {
   background-image: url(../img/honeycomb.png);
 }
 
-/* line 379, ../sass/style.scss */
+/* line 380, ../sass/style.scss */
 #designer {
   margin-right: 200px;
 }
 
-/* line 386, ../sass/style.scss */
+/* line 387, ../sass/style.scss */
 .flex-container {
   display: -webkit-box;
   display: -moz-box;
@@ -373,7 +374,7 @@ ul nav.navbar-nav li a {
   align-items: flex-start;
 }
 
-/* line 417, ../sass/style.scss */
+/* line 418, ../sass/style.scss */
 .flex-item:nth-child(1) {
   -webkit-box-ordinal-group: 1;
   -moz-box-ordinal-group: 1;
@@ -394,13 +395,13 @@ ul nav.navbar-nav li a {
 /*-----------------------------------------------------------Media Querys-------------------------------------------------------------------*/
 @media (max-width: 1280px) {
   /*-------------------- Portfolio ------------------------------*/
-  /* line 439, ../sass/style.scss */
+  /* line 440, ../sass/style.scss */
   .gallery-li {
     width: 30%;
     /*-- size of thumbs --*/
   }
 
-  /* line 443, ../sass/style.scss */
+  /* line 444, ../sass/style.scss */
   .portfolio-thumbs {
     width: 60%;
   }
@@ -410,13 +411,13 @@ ul nav.navbar-nav li a {
 }
 @media (max-width: 800px) {
   /*-------------------- Portfolio ------------------------------*/
-  /* line 459, ../sass/style.scss */
+  /* line 460, ../sass/style.scss */
   .gallery-li {
     width: 25%;
     /*-- size of thumbs --*/
   }
 
-  /* line 463, ../sass/style.scss */
+  /* line 464, ../sass/style.scss */
   .portfolio-thumbs {
     float: none;
     width: 100%;
@@ -424,25 +425,25 @@ ul nav.navbar-nav li a {
     text-align: center;
   }
 
-  /* line 471, ../sass/style.scss */
+  /* line 472, ../sass/style.scss */
   #portfolio-nav {
     float: none;
     width: 20%;
   }
 
-  /* line 477, ../sass/style.scss */
+  /* line 478, ../sass/style.scss */
   #heading {
     display: none;
   }
 
   /*--------------------------------------------------------------*/
   /*----------------- Home -----------------------------------*/
-  /* line 485, ../sass/style.scss */
+  /* line 486, ../sass/style.scss */
   .carousel .item {
     height: auto;
   }
 
-  /* line 489, ../sass/style.scss */
+  /* line 490, ../sass/style.scss */
   .item img {
     content: url(../img/photo1-mobile.jpg);
   }
