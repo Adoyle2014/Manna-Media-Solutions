@@ -17,9 +17,9 @@ $name = $_POST["fullname"];
 $email = $_POST["email"};
 $messege = $_POST["messege"];
 
-mail(bool mail ( 'dominofoe@yahoo.com' , 'New form submission from MMS' , "Contact Info: Name: $name, Email: $email, Message: $messege" )
+mail(bool mail ( 'dominofoe@yahoo.com' , 'New form submission from MMS' , "Contact Info: Name: $name, Email: $email, Message: $messege". "from: $name <$email>" );
 
-header("from: Manna Media Solutions", "Location: thank-you.html");
+header("Location: thank-you.html");
 
 <script>
 document.contactform.onsubmit=function() {

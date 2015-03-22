@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d4d931-bb12-4496-962d-9f6cc683d597" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/6e7c672daaf2dec3c83aa625b809b26cbbf3dc2e/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/6e7c672daaf2dec3c83aa625b809b26cbbf3dc2e/style.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact-form-proc.php" afterPath="$PROJECT_DIR$/contact-form-proc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="$PROJECT_DIR$/sass/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Manna Media Solutions.iws" />
@@ -43,8 +40,8 @@
       <file leaf-file-name="contact-form-proc.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact-form-proc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74444443" vertical-offset="81" max-vertical-offset="1035">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.87222224" vertical-offset="81" max-vertical-offset="1035">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -496,8 +493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contact-form-proc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74444443" vertical-offset="81" max-vertical-offset="1035">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.87222224" vertical-offset="81" max-vertical-offset="1035">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
           <folding />
         </state>
       </provider>
