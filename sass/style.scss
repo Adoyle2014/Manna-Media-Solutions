@@ -335,6 +335,21 @@ ul nav.navbar-nav li a {
   padding: 0;
 }
 
+.fancybox-nav {
+    width: 60px;       
+}
+
+.fancybox-nav span {
+    visibility: visible;
+}
+
+.fancybox-next {
+  right: -100px;
+}
+
+.fancybox-prev {
+    left: -100px;
+}
 
 
 

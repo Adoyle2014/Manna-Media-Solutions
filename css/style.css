@@ -309,10 +309,30 @@ ul nav.navbar-nav li a {
   padding: 0;
 }
 
+/* line 338, ../sass/style.scss */
+.fancybox-nav {
+  width: 60px;
+}
+
+/* line 342, ../sass/style.scss */
+.fancybox-nav span {
+  visibility: visible;
+}
+
+/* line 346, ../sass/style.scss */
+.fancybox-next {
+  right: -100px;
+}
+
+/* line 350, ../sass/style.scss */
+.fancybox-prev {
+  left: -100px;
+}
+
 /*----------------------------------------------------------------------------- About ---------------------------------------------------------------*/
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*---------------------------------------------------------------- FOOTER ----------------------------------------------------------------*/
-/* line 351, ../sass/style.scss */
+/* line 366, ../sass/style.scss */
 .footer {
   position: absolute;
   bottom: 0;
@@ -321,12 +341,12 @@ ul nav.navbar-nav li a {
   height: 60px;
 }
 
-/* line 366, ../sass/style.scss */
+/* line 381, ../sass/style.scss */
 .copyright {
   color: #FFEBCD;
 }
 
-/* line 370, ../sass/style.scss */
+/* line 385, ../sass/style.scss */
 .footer .container {
   min-height: 50px;
   border: 1px solid #222222;
@@ -337,12 +357,12 @@ ul nav.navbar-nav li a {
   background-image: url(../img/honeycomb.png);
 }
 
-/* line 380, ../sass/style.scss */
+/* line 395, ../sass/style.scss */
 #designer {
   margin-right: 200px;
 }
 
-/* line 387, ../sass/style.scss */
+/* line 402, ../sass/style.scss */
 .flex-container {
   display: -webkit-box;
   display: -moz-box;
@@ -374,7 +394,7 @@ ul nav.navbar-nav li a {
   align-items: flex-start;
 }
 
-/* line 418, ../sass/style.scss */
+/* line 433, ../sass/style.scss */
 .flex-item:nth-child(1) {
   -webkit-box-ordinal-group: 1;
   -moz-box-ordinal-group: 1;
@@ -395,13 +415,13 @@ ul nav.navbar-nav li a {
 /*-----------------------------------------------------------Media Querys-------------------------------------------------------------------*/
 @media (max-width: 1280px) {
   /*-------------------- Portfolio ------------------------------*/
-  /* line 440, ../sass/style.scss */
+  /* line 455, ../sass/style.scss */
   .gallery-li {
     width: 30%;
     /*-- size of thumbs --*/
   }
 
-  /* line 444, ../sass/style.scss */
+  /* line 459, ../sass/style.scss */
   .portfolio-thumbs {
     width: 60%;
   }
@@ -411,13 +431,13 @@ ul nav.navbar-nav li a {
 }
 @media (max-width: 800px) {
   /*-------------------- Portfolio ------------------------------*/
-  /* line 460, ../sass/style.scss */
+  /* line 475, ../sass/style.scss */
   .gallery-li {
     width: 25%;
     /*-- size of thumbs --*/
   }
 
-  /* line 464, ../sass/style.scss */
+  /* line 479, ../sass/style.scss */
   .portfolio-thumbs {
     float: none;
     width: 100%;
@@ -425,25 +445,25 @@ ul nav.navbar-nav li a {
     text-align: center;
   }
 
-  /* line 472, ../sass/style.scss */
+  /* line 487, ../sass/style.scss */
   #portfolio-nav {
     float: none;
     width: 20%;
   }
 
-  /* line 478, ../sass/style.scss */
+  /* line 493, ../sass/style.scss */
   #heading {
     display: none;
   }
 
   /*--------------------------------------------------------------*/
   /*----------------- Home -----------------------------------*/
-  /* line 486, ../sass/style.scss */
+  /* line 501, ../sass/style.scss */
   .carousel .item {
     height: auto;
   }
 
-  /* line 490, ../sass/style.scss */
+  /* line 505, ../sass/style.scss */
   .item img {
     content: url(../img/photo1-mobile.jpg);
   }
