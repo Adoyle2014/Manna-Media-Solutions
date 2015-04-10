@@ -444,10 +444,13 @@ caption {
 }
 
 #designer {
-
-  margin-right: 200px;
+  text-align: center;
+ 
 }
 
+#back-to-top {
+  text-align: right;
+}
 
 
 .flex-container {
@@ -511,15 +514,24 @@ caption {
     width: 60%;
     
   }
-  /*--------------------------------------------------------------*/
-
-  /*----------------- Home -----------------------------------*/
-
-
-
-
-
 }
+
+@media(max-width:1000px) {
+  #copyright {
+    text-align: center;
+  }
+  #designer {
+    text-align: center;
+  }
+  #back-to-top {
+    text-align: center;
+  }
+}
+
+
+
+
+
 
 @media(max-width:800px) {
   /*-------------------- Portfolio ------------------------------*/
@@ -527,24 +539,73 @@ caption {
     width: 25%; /*-- size of thumbs --*/
     }
 
-  .portfolio-thumbs {
-    float: none;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    
+.gallery {
+  text-align: center;
+}
+
+  .portfolio-thumbs {    
+    width: 100%;    
+
   }
+
+.flex-container {
+  width: 100%;
+  justify-content: center;
+}
+
+  
   
   #portfolio-nav {
     float: none;
-    width: 20%;
+    width: 100%;
+    
+  }
 
+  #portfolio-nav-ul {
+    text-align: center;
+    padding: 0;
+  }
+
+  .portfolio-nav-li {
+    display: inline-block;
+    padding: 0;
+    margin: 5px;
+    
+
+  }
+
+  .portfolio-nav-a:hover {
+
+  color: #ccc !important;
+  border: 1px solid #fff;
+  padding: 5px;
+  background: #024788 url(../img/honeycomb.png);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+  .portfolio-nav-a {
+    font-size: .8em;
+    padding: 0;
+    margin: 0;    
+  }
+
+  .overlay h3 {
+    font-size: .8em;
+  }
+
+  .overlay p {
+    display: none;
   }
 
   #heading {
   display: none;
 
   }
+
+  #pricing-content td {
+  font-size: 1em;
+}
 
   /*--------------------------------------------------------------*/
 
