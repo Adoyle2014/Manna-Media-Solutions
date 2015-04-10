@@ -2,7 +2,7 @@
 /*--------------------------------------------------------- Fonts & Variables ----------------------------------------------------------*/
 @font-face {
     font-family: "swatch";
-    src: url(../fonts/SWATRG.ttf);
+    src: url(../fonts/SWATRG.TTF);
 }
 
 @font-face {
@@ -31,7 +31,7 @@ body {
 }
 
 a {
-	font-family: $font-headers;
+	font-family: swatch;
       color: #ccc;
 
     }
@@ -147,6 +147,10 @@ ul nav.navbar-nav li a {
   width: 100%;
 }
 
+.carousel-caption a {
+  font-family: swatch;
+}
+
 
 /*+++++++++++++++++++++++++++++++++++++++++++++ CONTENT ++++++++++++++++++++++++++++++++++++*/
 
@@ -175,7 +179,7 @@ ul nav.navbar-nav li a {
 }
 
 #contactform label {
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 1.5em;
 }
 
@@ -183,16 +187,21 @@ ul nav.navbar-nav li a {
   font-size: 1.5em;
   border-radius: 10px;
   text-align: center;
+  width: 90%;
 }
 
 #contactform textarea {
   font-size: 1.5em;
   border-radius: 10px;
+  width: 90%;
 }
 
 #submit {
   font-size: 1.5em;
   border-radius: 10px;
+  margin-top: 20px;  
+  font-weight: bold;
+  font-family: swatch;
 }
 
 #submit:hover {
@@ -204,11 +213,13 @@ ul nav.navbar-nav li a {
 }
 
 /*---------------------------------------------------------------------------- Pricing ---------------------------------------------------------------*/
-
+#pricing-left {
+  margin-bottom: 20px;
+}
 #pricing-content p {
-  font-size: 1.3em;
+  font-size: 1.5em;
   padding-top: 0;
-  padding-bottom: 10px;
+  padding-bottom: 10px;  
   cursor: default;
 }
 
@@ -230,8 +241,16 @@ div#mms-pricing {
   text-decoration: none;
 }
 
+#pricing-content span {
+  font-size: 1.5em;
+}
+
 #pricing-content a:hover {
   color: #053F75;
+}
+
+#pricing-content td {
+  font-size: 1.5em;
 }
 
 th {
@@ -534,8 +553,16 @@ caption {
     
     height: auto;
   }
-  .item img {
-    content: url(../img/photo1-mobile.jpg);
+  #photo1 {
+    content: url(../img/Camera-mobile.jpg);
+  }
+
+  #photo2 {
+    content: url(../img/Lightbulb-mobile.jpg);
+  }
+
+  #photo3 {
+    content: url(../img/Network-mobile.jpg);
   }
 
 
