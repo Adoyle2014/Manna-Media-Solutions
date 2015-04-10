@@ -274,27 +274,19 @@ caption {
 }
 
 /*--------------------------------------------------------------------------- Portfolio -------------------------------------------------------------*/
-.portfolio-container {
-  width: 80%;
-  margin: auto;
-}
+
 
 #heading {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 4em;
   color: #fff;
   text-shadow: 2px 2px 2px #000;
 }
 
-#portfolio-nav {
-   
-
-}
-
-#portfolio-nav-ul {
-  float: left;
+#portfolio-nav-ul {  
   font-size: 1.3em;
+  margin-bottom: 20px;
 
   
 }
@@ -324,24 +316,10 @@ caption {
   
 }
 
-
-
-.portfolio-thumbs {
-  width: 78%;
-  float: right;
-  display: inline-block;
-
-}
-
-
-
-#gallery {
-  
-  width: 100%;
+#gallery {  
   list-style: none;
   margin: 0;
-  padding: 0;
-  
+  padding: 0;  
 }
 
 .gallery-li {
@@ -405,7 +383,12 @@ caption {
 
 
 /*----------------------------------------------------------------------------- About ---------------------------------------------------------------*/
+#photo {
+  border-radius: 10px;
+  margin: 20px 0 20px 0;
+  height: 600px;
 
+}
 
 
 
@@ -506,15 +489,62 @@ caption {
 
 @media(max-width: 1280px) {
   /*-------------------- Portfolio ------------------------------*/
-  .gallery-li {
-    width: 30%; /*-- size of thumbs --*/
-    }
-
-  .portfolio-thumbs {
-    width: 60%;
-    
-  }
+  
 }
+
+@media(max-width: 1060px) {
+  #portfolio-nav-ul {
+    text-align: center;
+  }
+.portfolio-nav-li {
+    display: inline-block;
+    padding: 0;
+    margin: 5px;   
+
+  }
+.portfolio-nav-a {
+    font-size: 1em;
+    padding: 5px;
+    margin: 0;    
+  }
+
+   div.portfolio-thumbs {        
+    width: 100%  
+  }
+
+  .flex-container {
+  width: 100%;
+  justify-content: center;
+}
+#gallery {
+  margin: 0 auto;
+}
+.portfolio-nav {   
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #portfolio-nav-ul {
+    text-align: center;
+    padding: 0;
+    
+
+  }
+
+  
+
+  .portfolio-nav-a:hover {
+
+  color: #ccc !important;
+  border: 1px solid #fff;
+  padding: 5px;
+  background: #024788 url(../img/honeycomb.png);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+}
+
 
 @media(max-width:1000px) {
   #copyright {
@@ -538,52 +568,6 @@ caption {
   .gallery-li {
     width: 25%; /*-- size of thumbs --*/
     }
-
-.gallery {
-  text-align: center;
-}
-
-  .portfolio-thumbs {    
-    width: 100%;    
-
-  }
-
-.flex-container {
-  width: 100%;
-  justify-content: center;
-}
-
-  
-  
-  #portfolio-nav {
-    float: none;
-    width: 100%;
-    
-  }
-
-  #portfolio-nav-ul {
-    text-align: center;
-    padding: 0;
-  }
-
-  .portfolio-nav-li {
-    display: inline-block;
-    padding: 0;
-    margin: 5px;
-    
-
-  }
-
-  .portfolio-nav-a:hover {
-
-  color: #ccc !important;
-  border: 1px solid #fff;
-  padding: 5px;
-  background: #024788 url(../img/honeycomb.png);
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-
   .portfolio-nav-a {
     font-size: .8em;
     padding: 0;

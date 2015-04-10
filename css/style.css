@@ -285,35 +285,29 @@ caption {
 }
 
 /*--------------------------------------------------------------------------- Portfolio -------------------------------------------------------------*/
-/* line 277, ../sass/style.scss */
-.portfolio-container {
-  width: 80%;
-  margin: auto;
-}
-
-/* line 282, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 #heading {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 4em;
   color: #fff;
   text-shadow: 2px 2px 2px #000;
 }
 
-/* line 295, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 #portfolio-nav-ul {
-  float: left;
   font-size: 1.3em;
+  margin-bottom: 20px;
 }
 
-/* line 302, ../sass/style.scss */
+/* line 294, ../sass/style.scss */
 .portfolio-nav-li {
   list-style: none;
   padding: 0 10px;
   margin-bottom: 20px;
 }
 
-/* line 308, ../sass/style.scss */
+/* line 300, ../sass/style.scss */
 .portfolio-nav-a {
   color: #fff;
   padding-bottom: 5px;
@@ -323,7 +317,7 @@ caption {
   text-shadow: 2px 2px 2px #000;
 }
 
-/* line 317, ../sass/style.scss */
+/* line 309, ../sass/style.scss */
 .portfolio-nav-li.current a, .portfolio-nav-a:hover {
   color: #ccc !important;
   border: 1px solid #fff;
@@ -332,22 +326,14 @@ caption {
   border-radius: 5px;
 }
 
-/* line 329, ../sass/style.scss */
-.portfolio-thumbs {
-  width: 78%;
-  float: right;
-  display: inline-block;
-}
-
-/* line 338, ../sass/style.scss */
+/* line 319, ../sass/style.scss */
 #gallery {
-  width: 100%;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 347, ../sass/style.scss */
+/* line 325, ../sass/style.scss */
 .gallery-li {
   display: block;
   float: left;
@@ -359,14 +345,14 @@ caption {
   position: relative;
 }
 
-/* line 357, ../sass/style.scss */
+/* line 335, ../sass/style.scss */
 #gallery img {
   width: 100%;
   border-radius: 5px;
 }
 
 /*overlay style */
-/* line 365, ../sass/style.scss */
+/* line 343, ../sass/style.scss */
 .overlay {
   display: none;
   background: #024788 url(../img/honeycomb.png) no-repeat top left;
@@ -385,36 +371,43 @@ caption {
   text-align: center;
 }
 
-/* line 384, ../sass/style.scss */
+/* line 362, ../sass/style.scss */
 .overlay h3 {
   margin: 0;
   padding: 0;
 }
 
-/* line 389, ../sass/style.scss */
+/* line 367, ../sass/style.scss */
 .fancybox-nav {
   width: 60px;
 }
 
-/* line 393, ../sass/style.scss */
+/* line 371, ../sass/style.scss */
 .fancybox-nav span {
   visibility: visible;
 }
 
-/* line 397, ../sass/style.scss */
+/* line 375, ../sass/style.scss */
 .fancybox-next {
   right: -100px;
 }
 
-/* line 401, ../sass/style.scss */
+/* line 379, ../sass/style.scss */
 .fancybox-prev {
   left: -100px;
 }
 
 /*----------------------------------------------------------------------------- About ---------------------------------------------------------------*/
+/* line 386, ../sass/style.scss */
+#photo {
+  border-radius: 10px;
+  margin: 20px 0 20px 0;
+  height: 600px;
+}
+
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*---------------------------------------------------------------- FOOTER ----------------------------------------------------------------*/
-/* line 417, ../sass/style.scss */
+/* line 400, ../sass/style.scss */
 .footer {
   position: absolute;
   bottom: 0;
@@ -423,12 +416,12 @@ caption {
   height: 60px;
 }
 
-/* line 432, ../sass/style.scss */
+/* line 415, ../sass/style.scss */
 .copyright {
   color: #FFEBCD;
 }
 
-/* line 436, ../sass/style.scss */
+/* line 419, ../sass/style.scss */
 .footer .container {
   min-height: 50px;
   border: 1px solid #222222;
@@ -439,17 +432,17 @@ caption {
   background-image: url(../img/honeycomb.png);
 }
 
-/* line 446, ../sass/style.scss */
+/* line 429, ../sass/style.scss */
 #designer {
   text-align: center;
 }
 
-/* line 451, ../sass/style.scss */
+/* line 434, ../sass/style.scss */
 #back-to-top {
   text-align: right;
 }
 
-/* line 456, ../sass/style.scss */
+/* line 439, ../sass/style.scss */
 .flex-container {
   display: -webkit-box;
   display: -moz-box;
@@ -481,7 +474,7 @@ caption {
   align-items: flex-start;
 }
 
-/* line 487, ../sass/style.scss */
+/* line 470, ../sass/style.scss */
 .flex-item:nth-child(1) {
   -webkit-box-ordinal-group: 1;
   -moz-box-ordinal-group: 1;
@@ -502,77 +495,56 @@ caption {
 /*-----------------------------------------------------------Media Querys-------------------------------------------------------------------*/
 @media (max-width: 1280px) {
   /*-------------------- Portfolio ------------------------------*/
-  /* line 509, ../sass/style.scss */
-  .gallery-li {
-    width: 30%;
-    /*-- size of thumbs --*/
-  }
-
-  /* line 513, ../sass/style.scss */
-  .portfolio-thumbs {
-    width: 60%;
-  }
 }
-@media (max-width: 1000px) {
-  /* line 520, ../sass/style.scss */
-  #copyright {
-    text-align: center;
-  }
-
-  /* line 523, ../sass/style.scss */
-  #designer {
-    text-align: center;
-  }
-
-  /* line 526, ../sass/style.scss */
-  #back-to-top {
-    text-align: center;
-  }
-}
-@media (max-width: 800px) {
-  /*-------------------- Portfolio ------------------------------*/
-  /* line 538, ../sass/style.scss */
-  .gallery-li {
-    width: 25%;
-    /*-- size of thumbs --*/
-  }
-
-  /* line 542, ../sass/style.scss */
-  .gallery {
-    text-align: center;
-  }
-
-  /* line 546, ../sass/style.scss */
-  .portfolio-thumbs {
-    width: 100%;
-  }
-
-  /* line 551, ../sass/style.scss */
-  .flex-container {
-    width: 100%;
-    justify-content: center;
-  }
-
-  /* line 558, ../sass/style.scss */
-  #portfolio-nav {
-    float: none;
-    width: 100%;
-  }
-
-  /* line 564, ../sass/style.scss */
+@media (max-width: 1060px) {
+  /* line 496, ../sass/style.scss */
   #portfolio-nav-ul {
     text-align: center;
-    padding: 0;
   }
 
-  /* line 569, ../sass/style.scss */
+  /* line 499, ../sass/style.scss */
   .portfolio-nav-li {
     display: inline-block;
     padding: 0;
     margin: 5px;
   }
 
-  /* line 577, ../sass/style.scss */
+  /* line 505, ../sass/style.scss */
+  .portfolio-nav-a {
+    font-size: 1em;
+    padding: 5px;
+    margin: 0;
+  }
+
+  /* line 511, ../sass/style.scss */
+  div.portfolio-thumbs {
+    width: 100%;
+  }
+
+  /* line 515, ../sass/style.scss */
+  .flex-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* line 519, ../sass/style.scss */
+  #gallery {
+    margin: 0 auto;
+  }
+
+  /* line 522, ../sass/style.scss */
+  .portfolio-nav {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* line 527, ../sass/style.scss */
+  #portfolio-nav-ul {
+    text-align: center;
+    padding: 0;
+  }
+
+  /* line 536, ../sass/style.scss */
   .portfolio-nav-a:hover {
     color: #ccc !important;
     border: 1px solid #fff;
@@ -581,52 +553,76 @@ caption {
     border-radius: 5px;
     box-sizing: border-box;
   }
+}
+@media (max-width: 1000px) {
+  /* line 550, ../sass/style.scss */
+  #copyright {
+    text-align: center;
+  }
 
-  /* line 587, ../sass/style.scss */
+  /* line 553, ../sass/style.scss */
+  #designer {
+    text-align: center;
+  }
+
+  /* line 556, ../sass/style.scss */
+  #back-to-top {
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  /*-------------------- Portfolio ------------------------------*/
+  /* line 568, ../sass/style.scss */
+  .gallery-li {
+    width: 25%;
+    /*-- size of thumbs --*/
+  }
+
+  /* line 571, ../sass/style.scss */
   .portfolio-nav-a {
     font-size: .8em;
     padding: 0;
     margin: 0;
   }
 
-  /* line 593, ../sass/style.scss */
+  /* line 577, ../sass/style.scss */
   .overlay h3 {
     font-size: .8em;
   }
 
-  /* line 597, ../sass/style.scss */
+  /* line 581, ../sass/style.scss */
   .overlay p {
     display: none;
   }
 
-  /* line 601, ../sass/style.scss */
+  /* line 585, ../sass/style.scss */
   #heading {
     display: none;
   }
 
-  /* line 606, ../sass/style.scss */
+  /* line 590, ../sass/style.scss */
   #pricing-content td {
     font-size: 1em;
   }
 
   /*--------------------------------------------------------------*/
   /*----------------- Home -----------------------------------*/
-  /* line 613, ../sass/style.scss */
+  /* line 597, ../sass/style.scss */
   .carousel .item {
     height: auto;
   }
 
-  /* line 617, ../sass/style.scss */
+  /* line 601, ../sass/style.scss */
   #photo1 {
     content: url(../img/Camera-mobile.jpg);
   }
 
-  /* line 621, ../sass/style.scss */
+  /* line 605, ../sass/style.scss */
   #photo2 {
     content: url(../img/Lightbulb-mobile.jpg);
   }
 
-  /* line 625, ../sass/style.scss */
+  /* line 609, ../sass/style.scss */
   #photo3 {
     content: url(../img/Network-mobile.jpg);
   }
