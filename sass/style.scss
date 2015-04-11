@@ -233,10 +233,13 @@ ul nav.navbar-nav li a {
   padding: 5px;
 }
 
-#pricing-content.content-container h1 {
+#pricing-content h1 {
   padding-bottom: 0;
   margin-bottom: 0;
+  padding-top: 10px;
   cursor: default;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 div#mms-pricing {
@@ -259,7 +262,7 @@ div#mms-pricing {
   color: #053F75;
 }
 
-#service-content td {
+td {
   font-size: 1.5em;
 }
 
