@@ -228,7 +228,12 @@ ul nav.navbar-nav li a {
   cursor: default;
 }
 
-#pricing-content.contact-container h1 {
+#service-content {
+  margin-top: 20px;
+  padding: 5px;
+}
+
+#pricing-content.content-container h1 {
   padding-bottom: 0;
   margin-bottom: 0;
   cursor: default;
@@ -254,7 +259,7 @@ div#mms-pricing {
   color: #053F75;
 }
 
-#pricing-content td {
+#service-content td {
   font-size: 1.5em;
 }
 
@@ -611,7 +616,7 @@ caption {
 
   }
 
-  #pricing-content td {
+  #service-content td {
   font-size: 1em;
 }
 
@@ -637,11 +642,11 @@ caption {
 }
 
 @media(max-width:450px) {
-  #pricing-content td {
+  #service-content td {
     font-size: .8em;
   }
 
-  #pricing-content th {
+  #service-content th {
     font-size: 1em;
   }
 

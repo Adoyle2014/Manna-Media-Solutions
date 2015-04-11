@@ -229,66 +229,72 @@ ul nav.navbar-nav li a {
 }
 
 /* line 231, ../sass/style.scss */
-#pricing-content.contact-container h1 {
+#service-content {
+  margin-top: 20px;
+  padding: 5px;
+}
+
+/* line 236, ../sass/style.scss */
+#pricing-content.content-container h1 {
   padding-bottom: 0;
   margin-bottom: 0;
   cursor: default;
 }
 
-/* line 237, ../sass/style.scss */
+/* line 242, ../sass/style.scss */
 div#mms-pricing {
   margin-top: 0;
   padding: 10px 20px 20px 20px;
   margin-bottom: 20px;
 }
 
-/* line 243, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 #pricing-content a {
   font-size: 1.8em;
   color: #191919;
   text-decoration: none;
 }
 
-/* line 249, ../sass/style.scss */
+/* line 254, ../sass/style.scss */
 #pricing-content span {
   font-size: 1.5em;
 }
 
-/* line 253, ../sass/style.scss */
+/* line 258, ../sass/style.scss */
 #pricing-content a:hover {
   color: #053F75;
 }
 
-/* line 257, ../sass/style.scss */
-#pricing-content td {
+/* line 262, ../sass/style.scss */
+#service-content td {
   font-size: 1.5em;
 }
 
-/* line 261, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 th {
   text-align: center;
   font-size: 1.5em;
 }
 
-/* line 266, ../sass/style.scss */
+/* line 271, ../sass/style.scss */
 caption {
   font-size: 2em;
   font-weight: bold;
 }
 
-/* line 271, ../sass/style.scss */
+/* line 276, ../sass/style.scss */
 #pricing-content {
   margin-bottom: 10px;
 }
 
-/* line 276, ../sass/style.scss */
+/* line 281, ../sass/style.scss */
 .pricing-disclaimer {
   color: #ccc;
   text-align: center;
 }
 
 /*--------------------------------------------------------------------------- Portfolio -------------------------------------------------------------*/
-/* line 284, ../sass/style.scss */
+/* line 289, ../sass/style.scss */
 #heading {
   text-align: center;
   margin-bottom: 30px;
@@ -297,20 +303,20 @@ caption {
   text-shadow: 2px 2px 2px #000;
 }
 
-/* line 292, ../sass/style.scss */
+/* line 297, ../sass/style.scss */
 #portfolio-nav-ul {
   font-size: 1.3em;
   margin-bottom: 20px;
 }
 
-/* line 299, ../sass/style.scss */
+/* line 304, ../sass/style.scss */
 .portfolio-nav-li {
   list-style: none;
   padding: 0 0;
   margin-bottom: 20px;
 }
 
-/* line 305, ../sass/style.scss */
+/* line 310, ../sass/style.scss */
 .portfolio-nav-a {
   color: #fff;
   padding-bottom: 5px;
@@ -320,7 +326,7 @@ caption {
   text-shadow: 2px 2px 2px #000;
 }
 
-/* line 314, ../sass/style.scss */
+/* line 319, ../sass/style.scss */
 .portfolio-nav-li.current a, .portfolio-nav-a:hover {
   color: #ccc !important;
   border: 1px solid #fff;
@@ -329,14 +335,14 @@ caption {
   border-radius: 5px;
 }
 
-/* line 324, ../sass/style.scss */
+/* line 329, ../sass/style.scss */
 #gallery {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 330, ../sass/style.scss */
+/* line 335, ../sass/style.scss */
 .gallery-li {
   display: block;
   float: left;
@@ -348,14 +354,14 @@ caption {
   position: relative;
 }
 
-/* line 340, ../sass/style.scss */
+/* line 345, ../sass/style.scss */
 #gallery img {
   width: 100%;
   border-radius: 5px;
 }
 
 /*overlay style */
-/* line 348, ../sass/style.scss */
+/* line 353, ../sass/style.scss */
 .overlay {
   display: none;
   background: #024788 url(../img/honeycomb.png) no-repeat top left;
@@ -374,47 +380,47 @@ caption {
   text-align: center;
 }
 
-/* line 367, ../sass/style.scss */
+/* line 372, ../sass/style.scss */
 .overlay h3 {
   margin: 0;
   padding: 0;
 }
 
-/* line 372, ../sass/style.scss */
+/* line 377, ../sass/style.scss */
 .fancybox-nav {
   width: 60px;
 }
 
-/* line 376, ../sass/style.scss */
+/* line 381, ../sass/style.scss */
 .fancybox-nav span {
   visibility: visible;
 }
 
-/* line 380, ../sass/style.scss */
+/* line 385, ../sass/style.scss */
 .fancybox-next {
   right: 50px;
 }
 
-/* line 384, ../sass/style.scss */
+/* line 389, ../sass/style.scss */
 .fancybox-prev {
   left: 50px;
 }
 
 /*----------------------------------------------------------------------------- About ---------------------------------------------------------------*/
-/* line 391, ../sass/style.scss */
+/* line 396, ../sass/style.scss */
 #photo-container {
   width: 100%;
   text-align: center;
 }
 
-/* line 396, ../sass/style.scss */
+/* line 401, ../sass/style.scss */
 #photo {
   border-radius: 10px;
   margin: 20px auto 30px auto;
   width: 80%;
 }
 
-/* line 403, ../sass/style.scss */
+/* line 408, ../sass/style.scss */
 #about {
   width: 90%;
   font-size: 1.5em;
@@ -423,14 +429,14 @@ caption {
   padding: 20px 25px 10px 25px;
 }
 
-/* line 412, ../sass/style.scss */
+/* line 417, ../sass/style.scss */
 #signature {
   font-family: "Brush Script Std";
 }
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*---------------------------------------------------------------- FOOTER ----------------------------------------------------------------*/
-/* line 423, ../sass/style.scss */
+/* line 428, ../sass/style.scss */
 .footer {
   position: absolute;
   bottom: 0;
@@ -439,12 +445,12 @@ caption {
   height: 60px;
 }
 
-/* line 438, ../sass/style.scss */
+/* line 443, ../sass/style.scss */
 .copyright {
   color: #FFEBCD;
 }
 
-/* line 442, ../sass/style.scss */
+/* line 447, ../sass/style.scss */
 .footer .container {
   min-height: 50px;
   border: 1px solid #222222;
@@ -455,17 +461,17 @@ caption {
   background-image: url(../img/honeycomb.png);
 }
 
-/* line 452, ../sass/style.scss */
+/* line 457, ../sass/style.scss */
 #designer {
   text-align: center;
 }
 
-/* line 457, ../sass/style.scss */
+/* line 462, ../sass/style.scss */
 #back-to-top {
   text-align: right;
 }
 
-/* line 462, ../sass/style.scss */
+/* line 467, ../sass/style.scss */
 .flex-container {
   display: -webkit-box;
   display: -moz-box;
@@ -515,60 +521,60 @@ caption {
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*-----------------------------------------------------------Media Querys-------------------------------------------------------------------*/
 @media (max-width: 1225px) {
-  /* line 514, ../sass/style.scss */
+  /* line 519, ../sass/style.scss */
   .portfolio-nav-a {
     font-size: 1em;
   }
 }
 @media (max-width: 1060px) {
-  /* line 520, ../sass/style.scss */
+  /* line 525, ../sass/style.scss */
   #portfolio-nav-ul {
     text-align: center;
   }
 
-  /* line 523, ../sass/style.scss */
+  /* line 528, ../sass/style.scss */
   .portfolio-nav-li {
     display: inline-block;
     padding: 0;
     margin: 5px;
   }
 
-  /* line 529, ../sass/style.scss */
+  /* line 534, ../sass/style.scss */
   .portfolio-nav-a {
     font-size: 1em;
     padding: 5px;
     margin: 0;
   }
 
-  /* line 535, ../sass/style.scss */
+  /* line 540, ../sass/style.scss */
   div.portfolio-thumbs {
     width: 100%;
   }
 
-  /* line 539, ../sass/style.scss */
+  /* line 544, ../sass/style.scss */
   .flex-container {
     width: 100%;
     justify-content: center;
   }
 
-  /* line 543, ../sass/style.scss */
+  /* line 548, ../sass/style.scss */
   #gallery {
     margin: 0 auto;
   }
 
-  /* line 546, ../sass/style.scss */
+  /* line 551, ../sass/style.scss */
   .portfolio-nav {
     width: 100%;
     margin: 0 auto;
   }
 
-  /* line 551, ../sass/style.scss */
+  /* line 556, ../sass/style.scss */
   #portfolio-nav-ul {
     text-align: center;
     padding: 0;
   }
 
-  /* line 560, ../sass/style.scss */
+  /* line 565, ../sass/style.scss */
   .portfolio-nav-a:hover {
     color: #ccc !important;
     border: 1px solid #fff;
@@ -579,86 +585,86 @@ caption {
   }
 }
 @media (max-width: 1000px) {
-  /* line 574, ../sass/style.scss */
+  /* line 579, ../sass/style.scss */
   #copyright {
     text-align: center;
   }
 
-  /* line 577, ../sass/style.scss */
+  /* line 582, ../sass/style.scss */
   #designer {
     text-align: center;
   }
 
-  /* line 580, ../sass/style.scss */
+  /* line 585, ../sass/style.scss */
   #back-to-top {
     text-align: center;
   }
 }
 @media (max-width: 800px) {
   /*-------------------- Portfolio ------------------------------*/
-  /* line 592, ../sass/style.scss */
+  /* line 597, ../sass/style.scss */
   .gallery-li {
     width: 25%;
     /*-- size of thumbs --*/
   }
 
-  /* line 595, ../sass/style.scss */
+  /* line 600, ../sass/style.scss */
   .portfolio-nav-a {
     font-size: .8em;
     padding: 0;
     margin: 0;
   }
 
-  /* line 601, ../sass/style.scss */
+  /* line 606, ../sass/style.scss */
   .overlay h3 {
     font-size: .8em;
   }
 
-  /* line 605, ../sass/style.scss */
+  /* line 610, ../sass/style.scss */
   .overlay p {
     display: none;
   }
 
-  /* line 609, ../sass/style.scss */
+  /* line 614, ../sass/style.scss */
   #heading {
     display: none;
   }
 
-  /* line 614, ../sass/style.scss */
-  #pricing-content td {
+  /* line 619, ../sass/style.scss */
+  #service-content td {
     font-size: 1em;
   }
 
   /*--------------------------------------------------------------*/
   /*----------------- Home -----------------------------------*/
-  /* line 621, ../sass/style.scss */
+  /* line 626, ../sass/style.scss */
   .carousel .item {
     height: auto;
   }
 
-  /* line 625, ../sass/style.scss */
+  /* line 630, ../sass/style.scss */
   #photo1 {
     content: url(../img/Camera-mobile.jpg);
   }
 
-  /* line 629, ../sass/style.scss */
+  /* line 634, ../sass/style.scss */
   #photo2 {
     content: url(../img/Lightbulb-mobile.jpg);
   }
 
-  /* line 633, ../sass/style.scss */
+  /* line 638, ../sass/style.scss */
   #photo3 {
     content: url(../img/Network-mobile.jpg);
   }
 }
 @media (max-width: 450px) {
-  /* line 640, ../sass/style.scss */
-  #pricing-content td {
+  /* line 645, ../sass/style.scss */
+  #service-content td {
     font-size: .8em;
   }
 
-  /* line 644, ../sass/style.scss */
-  #pricing-content th {
+  /* line 649, ../sass/style.scss */
+  #service-content th {
     font-size: 1em;
   }
 }
