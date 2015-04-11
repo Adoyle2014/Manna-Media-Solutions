@@ -108,7 +108,7 @@ a {
 
 }
 
-.nav li:hover {
+.nav li:not(.nohover):hover {
   background-color: #024788;
   color: #ccc !important;  
   border: 1px solid #fff;
@@ -120,14 +120,65 @@ a {
 
 }
 
-ul nav.navbar-nav li a {
+.navbar-nav li a {
   color: #ccc;
   text-transform: capitalize !important;
   font-family: $font-headers;
-  font-size: 1.2em;
-  
-
+  font-size: 1.5em;
 }
+
+.li-logo {
+  width: 30px;
+  height: auto; 
+  background-color: inherit; 
+}
+
+.dropdown-menu .dropdown-a, .dropdown-menu .divider-title {
+  color: #262626;
+  font-size: 1.2em;
+  text-align: center;
+  border: none;
+  
+}
+
+.dropdown {
+  border-radius: 10px;
+ 
+}
+
+li.dropdown.open:hover {
+  border: none;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.dropdown-menu {
+  background-color: #000;
+}
+
+.dropdown-menu .dropdown-li {
+  border: none;
+  box-sizing: border-box;
+}
+
+.dropdown-menu .dropdown-a {
+  color: #fff;
+}
+
+.dropdown-menu li.divider {
+  color: #fff !important;
+}
+
+.dropdown-menu .dropdown-a:hover {
+  border-radius: 10px;
+}
+
+ .dropdown-menu li.divider-title {
+  color: #fff;
+ }
+
+
+
 
 /*===========================================MMS BANNER ================================*/
 
