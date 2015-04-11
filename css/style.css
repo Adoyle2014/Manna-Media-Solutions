@@ -148,36 +148,39 @@ ul nav.navbar-nav li a {
 /*+++++++++++++++++++++++++++++++++++++++++++++ CONTENT ++++++++++++++++++++++++++++++++++++*/
 /*--------------------------------------------------------------------------- Contact ---------------------------------------------------------------*/
 /* line 159, ../sass/style.scss */
-.contact-container {
-  background-color: #ccc;
-  box-shadow: 0 0 10px #fff;
-  border: 4px solid #000;
+.content-container {
+  background-color: #fff;
+  box-shadow: inset 0 0 20px #000;
   border-radius: 10px;
   color: #191919;
   text-align: center;
-  margin-top: 50px;
-  Margin-bottom: 50px;
 }
 
-/* line 171, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
+#contact-content {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+/* line 176, ../sass/style.scss */
 #mms-contact {
   margin-top: 0;
-  padding: 20px;
-  margin-bottom: 20px;
+  padding: 0 20px 20px 20px;
 }
 
-/* line 177, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 #contactform {
   padding: 20px;
 }
 
-/* line 181, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 #contactform label {
   margin-top: 20px;
   font-size: 1.5em;
 }
 
-/* line 186, ../sass/style.scss */
+/* line 191, ../sass/style.scss */
 #contactform input {
   font-size: 1.5em;
   border-radius: 10px;
@@ -185,14 +188,14 @@ ul nav.navbar-nav li a {
   width: 90%;
 }
 
-/* line 193, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 #contactform textarea {
   font-size: 1.5em;
   border-radius: 10px;
   width: 90%;
 }
 
-/* line 199, ../sass/style.scss */
+/* line 204, ../sass/style.scss */
 #submit {
   font-size: 1.5em;
   border-radius: 10px;
@@ -201,23 +204,23 @@ ul nav.navbar-nav li a {
   font-family: swatch;
 }
 
-/* line 207, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 #submit:hover {
   box-shadow: 0 0 10px #013768;
 }
 
-/* line 211, ../sass/style.scss */
+/* line 216, ../sass/style.scss */
 #submit:active {
   box-shadow: inset 0 0 10px #013768;
 }
 
 /*---------------------------------------------------------------------------- Pricing ---------------------------------------------------------------*/
-/* line 216, ../sass/style.scss */
+/* line 221, ../sass/style.scss */
 #pricing-left {
   margin-bottom: 20px;
 }
 
-/* line 219, ../sass/style.scss */
+/* line 224, ../sass/style.scss */
 #pricing-content p {
   font-size: 1.5em;
   padding-top: 0;
@@ -225,99 +228,99 @@ ul nav.navbar-nav li a {
   cursor: default;
 }
 
-/* line 226, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 #pricing-content.contact-container h1 {
   padding-bottom: 0;
   margin-bottom: 0;
   cursor: default;
 }
 
-/* line 232, ../sass/style.scss */
+/* line 237, ../sass/style.scss */
 div#mms-pricing {
   margin-top: 0;
   padding: 10px 20px 20px 20px;
   margin-bottom: 20px;
 }
 
-/* line 238, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 #pricing-content a {
   font-size: 1.8em;
   color: #191919;
   text-decoration: none;
 }
 
-/* line 244, ../sass/style.scss */
+/* line 249, ../sass/style.scss */
 #pricing-content span {
   font-size: 1.5em;
 }
 
-/* line 248, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 #pricing-content a:hover {
   color: #053F75;
 }
 
-/* line 252, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 #pricing-content td {
   font-size: 1.5em;
 }
 
-/* line 256, ../sass/style.scss */
+/* line 261, ../sass/style.scss */
 th {
   text-align: center;
   font-size: 1.5em;
 }
 
-/* line 261, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 caption {
   font-size: 2em;
   font-weight: bold;
 }
 
-/* line 266, ../sass/style.scss */
+/* line 271, ../sass/style.scss */
 #pricing-content {
   margin-bottom: 10px;
 }
 
-/* line 271, ../sass/style.scss */
+/* line 276, ../sass/style.scss */
 .pricing-disclaimer {
   color: #ccc;
   text-align: center;
 }
 
 /*--------------------------------------------------------------------------- Portfolio -------------------------------------------------------------*/
-/* line 279, ../sass/style.scss */
+/* line 284, ../sass/style.scss */
 #heading {
   text-align: center;
   margin-bottom: 30px;
-  font-size: 4em;
+  font-size: 3em;
   color: #fff;
   text-shadow: 2px 2px 2px #000;
 }
 
-/* line 287, ../sass/style.scss */
+/* line 292, ../sass/style.scss */
 #portfolio-nav-ul {
   font-size: 1.3em;
   margin-bottom: 20px;
 }
 
-/* line 294, ../sass/style.scss */
+/* line 299, ../sass/style.scss */
 .portfolio-nav-li {
   list-style: none;
-  padding: 0 10px;
+  padding: 0 0;
   margin-bottom: 20px;
 }
 
-/* line 300, ../sass/style.scss */
+/* line 305, ../sass/style.scss */
 .portfolio-nav-a {
   color: #fff;
   padding-bottom: 5px;
   text-decoration: none;
-  font-family: cambria, sans-serif;
-  font-size: 1.5em;
+  font-family: "swatch";
+  font-size: 1.3em;
   text-shadow: 2px 2px 2px #000;
 }
 
-/* line 309, ../sass/style.scss */
+/* line 314, ../sass/style.scss */
 .portfolio-nav-li.current a, .portfolio-nav-a:hover {
   color: #ccc !important;
   border: 1px solid #fff;
@@ -326,14 +329,14 @@ caption {
   border-radius: 5px;
 }
 
-/* line 319, ../sass/style.scss */
+/* line 324, ../sass/style.scss */
 #gallery {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 325, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
 .gallery-li {
   display: block;
   float: left;
@@ -345,14 +348,14 @@ caption {
   position: relative;
 }
 
-/* line 335, ../sass/style.scss */
+/* line 340, ../sass/style.scss */
 #gallery img {
   width: 100%;
   border-radius: 5px;
 }
 
 /*overlay style */
-/* line 343, ../sass/style.scss */
+/* line 348, ../sass/style.scss */
 .overlay {
   display: none;
   background: #024788 url(../img/honeycomb.png) no-repeat top left;
@@ -371,43 +374,63 @@ caption {
   text-align: center;
 }
 
-/* line 362, ../sass/style.scss */
+/* line 367, ../sass/style.scss */
 .overlay h3 {
   margin: 0;
   padding: 0;
 }
 
-/* line 367, ../sass/style.scss */
+/* line 372, ../sass/style.scss */
 .fancybox-nav {
   width: 60px;
 }
 
-/* line 371, ../sass/style.scss */
+/* line 376, ../sass/style.scss */
 .fancybox-nav span {
   visibility: visible;
 }
 
-/* line 375, ../sass/style.scss */
+/* line 380, ../sass/style.scss */
 .fancybox-next {
-  right: -100px;
+  right: 50px;
 }
 
-/* line 379, ../sass/style.scss */
+/* line 384, ../sass/style.scss */
 .fancybox-prev {
-  left: -100px;
+  left: 50px;
 }
 
 /*----------------------------------------------------------------------------- About ---------------------------------------------------------------*/
-/* line 386, ../sass/style.scss */
+/* line 391, ../sass/style.scss */
+#photo-container {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 396, ../sass/style.scss */
 #photo {
   border-radius: 10px;
-  margin: 20px 0 20px 0;
-  height: 600px;
+  margin: 20px auto 30px auto;
+  width: 80%;
+}
+
+/* line 403, ../sass/style.scss */
+#about {
+  width: 90%;
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 20px 25px 10px 25px;
+}
+
+/* line 412, ../sass/style.scss */
+#signature {
+  font-family: "Brush Script Std";
 }
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*---------------------------------------------------------------- FOOTER ----------------------------------------------------------------*/
-/* line 400, ../sass/style.scss */
+/* line 423, ../sass/style.scss */
 .footer {
   position: absolute;
   bottom: 0;
@@ -416,12 +439,12 @@ caption {
   height: 60px;
 }
 
-/* line 415, ../sass/style.scss */
+/* line 438, ../sass/style.scss */
 .copyright {
   color: #FFEBCD;
 }
 
-/* line 419, ../sass/style.scss */
+/* line 442, ../sass/style.scss */
 .footer .container {
   min-height: 50px;
   border: 1px solid #222222;
@@ -432,17 +455,17 @@ caption {
   background-image: url(../img/honeycomb.png);
 }
 
-/* line 429, ../sass/style.scss */
+/* line 452, ../sass/style.scss */
 #designer {
   text-align: center;
 }
 
-/* line 434, ../sass/style.scss */
+/* line 457, ../sass/style.scss */
 #back-to-top {
   text-align: right;
 }
 
-/* line 439, ../sass/style.scss */
+/* line 462, ../sass/style.scss */
 .flex-container {
   display: -webkit-box;
   display: -moz-box;
@@ -474,8 +497,7 @@ caption {
   align-items: flex-start;
 }
 
-/* line 470, ../sass/style.scss */
-.flex-item:nth-child(1) {
+/*.flex-item:nth-child(19) {
   -webkit-box-ordinal-group: 1;
   -moz-box-ordinal-group: 1;
   -webkit-order: 0;
@@ -483,68 +505,70 @@ caption {
   order: 0;
   -webkit-box-flex: 0;
   -moz-box-flex: 0;
-  -webkit-flex: 0 1 auto;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
+  -webkit-flex: 0 1 200px;
+  -ms-flex: 0 1 200px;
+  flex: 0 1 200px;
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
-}
-
+}*/
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*-----------------------------------------------------------Media Querys-------------------------------------------------------------------*/
-@media (max-width: 1280px) {
-  /*-------------------- Portfolio ------------------------------*/
+@media (max-width: 1225px) {
+  /* line 514, ../sass/style.scss */
+  .portfolio-nav-a {
+    font-size: 1em;
+  }
 }
 @media (max-width: 1060px) {
-  /* line 496, ../sass/style.scss */
+  /* line 520, ../sass/style.scss */
   #portfolio-nav-ul {
     text-align: center;
   }
 
-  /* line 499, ../sass/style.scss */
+  /* line 523, ../sass/style.scss */
   .portfolio-nav-li {
     display: inline-block;
     padding: 0;
     margin: 5px;
   }
 
-  /* line 505, ../sass/style.scss */
+  /* line 529, ../sass/style.scss */
   .portfolio-nav-a {
     font-size: 1em;
     padding: 5px;
     margin: 0;
   }
 
-  /* line 511, ../sass/style.scss */
+  /* line 535, ../sass/style.scss */
   div.portfolio-thumbs {
     width: 100%;
   }
 
-  /* line 515, ../sass/style.scss */
+  /* line 539, ../sass/style.scss */
   .flex-container {
     width: 100%;
     justify-content: center;
   }
 
-  /* line 519, ../sass/style.scss */
+  /* line 543, ../sass/style.scss */
   #gallery {
     margin: 0 auto;
   }
 
-  /* line 522, ../sass/style.scss */
+  /* line 546, ../sass/style.scss */
   .portfolio-nav {
     width: 100%;
     margin: 0 auto;
   }
 
-  /* line 527, ../sass/style.scss */
+  /* line 551, ../sass/style.scss */
   #portfolio-nav-ul {
     text-align: center;
     padding: 0;
   }
 
-  /* line 536, ../sass/style.scss */
+  /* line 560, ../sass/style.scss */
   .portfolio-nav-a:hover {
     color: #ccc !important;
     border: 1px solid #fff;
@@ -555,75 +579,86 @@ caption {
   }
 }
 @media (max-width: 1000px) {
-  /* line 550, ../sass/style.scss */
+  /* line 574, ../sass/style.scss */
   #copyright {
     text-align: center;
   }
 
-  /* line 553, ../sass/style.scss */
+  /* line 577, ../sass/style.scss */
   #designer {
     text-align: center;
   }
 
-  /* line 556, ../sass/style.scss */
+  /* line 580, ../sass/style.scss */
   #back-to-top {
     text-align: center;
   }
 }
 @media (max-width: 800px) {
   /*-------------------- Portfolio ------------------------------*/
-  /* line 568, ../sass/style.scss */
+  /* line 592, ../sass/style.scss */
   .gallery-li {
     width: 25%;
     /*-- size of thumbs --*/
   }
 
-  /* line 571, ../sass/style.scss */
+  /* line 595, ../sass/style.scss */
   .portfolio-nav-a {
     font-size: .8em;
     padding: 0;
     margin: 0;
   }
 
-  /* line 577, ../sass/style.scss */
+  /* line 601, ../sass/style.scss */
   .overlay h3 {
     font-size: .8em;
   }
 
-  /* line 581, ../sass/style.scss */
+  /* line 605, ../sass/style.scss */
   .overlay p {
     display: none;
   }
 
-  /* line 585, ../sass/style.scss */
+  /* line 609, ../sass/style.scss */
   #heading {
     display: none;
   }
 
-  /* line 590, ../sass/style.scss */
+  /* line 614, ../sass/style.scss */
   #pricing-content td {
     font-size: 1em;
   }
 
   /*--------------------------------------------------------------*/
   /*----------------- Home -----------------------------------*/
-  /* line 597, ../sass/style.scss */
+  /* line 621, ../sass/style.scss */
   .carousel .item {
     height: auto;
   }
 
-  /* line 601, ../sass/style.scss */
+  /* line 625, ../sass/style.scss */
   #photo1 {
     content: url(../img/Camera-mobile.jpg);
   }
 
-  /* line 605, ../sass/style.scss */
+  /* line 629, ../sass/style.scss */
   #photo2 {
     content: url(../img/Lightbulb-mobile.jpg);
   }
 
-  /* line 609, ../sass/style.scss */
+  /* line 633, ../sass/style.scss */
   #photo3 {
     content: url(../img/Network-mobile.jpg);
+  }
+}
+@media (max-width: 450px) {
+  /* line 640, ../sass/style.scss */
+  #pricing-content td {
+    font-size: .8em;
+  }
+
+  /* line 644, ../sass/style.scss */
+  #pricing-content th {
+    font-size: 1em;
   }
 }

@@ -5,7 +5,7 @@ $(document).ready(function() {
 		$(this).parent().addClass('current');
 
 		// set heading text
-		$('.portfolio-container #heading').text($(this).text());
+		$('#heading').text($(this).text());
 
 		//Get and filter link text
 		var catagory = $(this).text().toLowerCase().replace(' ', '-');
