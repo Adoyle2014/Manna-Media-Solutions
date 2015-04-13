@@ -143,19 +143,23 @@ a {
   
 }
 
-.dropdown {
-  border-radius: 10px;
- 
+li.dropdown a {
+  border-radius: 5px; 
+  background-color: #024788;
+  background-image: url(../img/honeycomb.png);
 }
 
-li.dropdown.open:hover {
-  border: none;
+li.dropdown.open:hover {  
   opacity: 1;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
-.dropdown-menu {
-  background-color: #000;
+ul.dropdown-menu {
+  background-color: #024788;
+  background-image: url(../img/honeycomb.png); 
+  border: solid 1px #fff;
+  border-radius: 5px;
+  border-top-right-radius: 5px !important;
 }
 
 .dropdown-menu .dropdown-li {
@@ -172,7 +176,10 @@ li.dropdown.open:hover {
 }
 
 .dropdown-menu .dropdown-a:hover {
+  background-image: none;
+  background-color: #fff !important;
   border-radius: 10px;
+  color: #000 !important;
 }
 
  .dropdown-menu li.divider-title {
