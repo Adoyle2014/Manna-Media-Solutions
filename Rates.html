@@ -23,28 +23,35 @@
 	<body>
 		<div class="navbar-wrapper">
 			<div class="container">
-				<nav class="navbar navbar-inverse navbar-static-top">
-					<div class="container">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<a class="navbar-brand" href="Index.html"><img id="brand" src="img/MannaMedia_Logo-white.png"></a>
-						</div>
-						<div id="navbar" class="navbar-collapse collapse pull-right">
-							<ul class="nav navbar-nav">
-								<li><a href="Index.html">Home</a></li>
-								<li><a href="About.html">About</a></li>								
-								<li><a href="Portfolio.html">Portfolio</a></li>
-								<li class="active"><a href="Rates.html">Pricing</a></li>
-								<li><a href="Contact.html">Contact</a></li>
-								</li>
-							</ul>
-						</div>
+				<nav class="navbar navbar-inverse navbar-static-top">					
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="Index.html"><img id="brand" src="img/MannaMedia_Logo-white.png"></a>
 					</div>
+					<div id="navbar" class="navbar-collapse collapse pull-right">
+						<ul class="nav navbar-nav">
+							<li><a href="Index.html">Home</a></li>
+							<li><a href="About.html">About</a></li>								
+							<li><a href="Portfolio.html">Portfolio</a></li>
+							<li class="active"><a href="Rates.html">Pricing</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact <span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">	
+									<li class="dropdown-li nohover"><a class="dropdown-a" href="Contact.html">Contact Us</a></li>
+									<li class="divider"></li>
+									<li class="divider-title nohover">Or Follow Us On:</li>
+									<li class="divider"></li>
+									<li class="dropdown-li nohover"><a class="pull-left dropdown-a" href="https://www.facebook.com/mannamediasolutions?fref=ts" target="_blank">Facebook</a><img class="li-logo pull-right" src="img/facebook-glossy.png"></li>
+									<li class="dropdown-li nohover"><a class="pull-left dropdown-a" href="https://www.youtube.com/user/mannamediasolutions" target="_blank">YouTube</a><img class="li-logo pull-right" src="img/youtube-glossy.png"></li>									
+								</ul>	
+							</li>						
+						</ul>
+					</div>					
 				</nav>
 			</div>
 		</div>
@@ -61,8 +68,20 @@
 	                		<div class="content-container" id="pricing-content">
 	                    			<h1>Pricing</h1>
 	                        		<div id="mms-pricing">
-	                            			<p>The total cost of a production is complicated to determine without answering some questions first. For example, we would need to know how long your production would be, the desired platform and destination of your work and what services you require to complete the production.</p><p>You can always contact us for a free estimate or check out our hourly rates...</p>	                        		
+	                            			<p>The total cost of a production is complicated to determine without answering some questions first. For example, we would need to know how long your production would be, the desired platform and destination of your work and what services you require to complete the production.</p><p>You can always contact us for a free estimate or check out our hourly rates...</p>	                       		
 	                    				<a href="Contact.html">Contact Us </a>&nbsp<span class="glyphicon glyphicon-envelope"></span>
+	                    			</div>
+	                    			<div id="paypal-button">
+	                    				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+								<input type="hidden" name="cmd" value="_s-xclick">
+								<input type="hidden" name="hosted_button_id" value="FWXDL6J6K2CLJ">
+								
+								<label type="hidden" name="on0" value="Invoice # or Business Name">Invoice # or Business Name</label></br>
+								<input type="text" name="os0" maxlength="200"></br>
+								
+								<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+								<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+							</form>
 	                    			</div>
 	                		</div>
 	            		</div>
@@ -127,11 +146,6 @@
 				</div><!--col-md-8-->
 	        	</div>
 		</div>
-	        
-
-	
-
-
 		<!-- FOOTER -->
 		<footer class="footer">
 			<div class="container">
@@ -140,14 +154,14 @@
 				<p class="col-md-4" id="back-to-top"><a href="#">Back to top</a></p>
 			</div>
 		</footer>
-	<!-- Bootstrap core JavaScript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/portfolio.js"></script>
-	
-	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-	<!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+	        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	        <script type="text/javascript" src="js/portfolio.js"></script>
+		
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
 	</body>
 </html>

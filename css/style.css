@@ -58,6 +58,7 @@ a {
 
 /* line 64, ../sass/style.scss */
 .navbar-wrapper .navbar {
+  border-radius: 5px;
   padding-left: 15px;
   margin-top: 20px;
 }
@@ -115,9 +116,10 @@ a {
   border: 1px solid #fff;
   border-radius: 5px;
   font-weight: normal;
+  text-decoration: none;
 }
 
-/* line 125, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 .navbar-nav li a {
   color: #fff !important;
   text-transform: capitalize !important;
@@ -125,14 +127,14 @@ a {
   font-size: 1.5em;
 }
 
-/* line 132, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .li-logo {
   width: 30px;
   height: auto;
   background-color: inherit;
 }
 
-/* line 138, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 .dropdown-menu .dropdown-a, .dropdown-menu .divider-title {
   color: #262626;
   font-size: 1.2em;
@@ -140,45 +142,46 @@ a {
   border: none;
 }
 
-/* line 146, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 li.dropdown a {
   border-radius: 5px;
   background-color: #024788;
   background-image: url(../img/honeycomb.png);
 }
 
-/* line 152, ../sass/style.scss */
+/* line 153, ../sass/style.scss */
 li.dropdown.open:hover {
   opacity: 1;
   border-radius: 5px;
 }
 
-/* line 157, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 ul.dropdown-menu {
   background-color: #024788;
   background-image: url(../img/honeycomb.png);
+  height: auto;
   border: solid 1px #fff;
   border-radius: 5px;
   border-top-right-radius: 5px !important;
 }
 
-/* line 165, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .dropdown-menu .dropdown-li {
   border: none;
   box-sizing: border-box;
 }
 
-/* line 170, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 .dropdown-menu .dropdown-a {
   color: #fff;
 }
 
-/* line 174, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 .dropdown-menu li.divider {
   color: #fff !important;
 }
 
-/* line 178, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 .dropdown-menu .dropdown-a:hover {
   background-image: none;
   background-color: #fff !important;
@@ -186,13 +189,13 @@ ul.dropdown-menu {
   color: #000 !important;
 }
 
-/* line 185, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 .dropdown-menu li.divider-title {
   color: #fff;
 }
 
 /*===========================================MMS BANNER ================================*/
-/* line 194, ../sass/style.scss */
+/* line 196, ../sass/style.scss */
 #manna {
   width: 90%;
   margin: auto;
@@ -200,24 +203,24 @@ ul.dropdown-menu {
   margin-bottom: 0;
 }
 
-/* line 202, ../sass/style.scss */
+/* line 204, ../sass/style.scss */
 #manna-container {
   width: 100%;
 }
 
-/* line 206, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 #manna-container img {
   width: 100%;
 }
 
-/* line 210, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 .carousel-caption a {
   font-family: swatch;
 }
 
 /*+++++++++++++++++++++++++++++++++++++++++++++ CONTENT ++++++++++++++++++++++++++++++++++++*/
 /*--------------------------------------------------------------------------- Contact ---------------------------------------------------------------*/
-/* line 219, ../sass/style.scss */
+/* line 221, ../sass/style.scss */
 .content-container {
   background-color: #fff;
   box-shadow: inset 0 0 20px #000;
@@ -226,31 +229,31 @@ ul.dropdown-menu {
   text-align: center;
 }
 
-/* line 229, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 #contact-content {
   margin-top: 20px;
   margin-bottom: 30px;
   padding: 20px;
 }
 
-/* line 236, ../sass/style.scss */
+/* line 238, ../sass/style.scss */
 #mms-contact {
   margin-top: 0;
   padding: 0 20px 20px 20px;
 }
 
-/* line 242, ../sass/style.scss */
+/* line 244, ../sass/style.scss */
 #contactform {
   padding: 20px;
 }
 
-/* line 246, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 #contactform label {
   margin-top: 20px;
   font-size: 1.5em;
 }
 
-/* line 251, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 #contactform input {
   font-size: 1.5em;
   border-radius: 10px;
@@ -258,14 +261,14 @@ ul.dropdown-menu {
   width: 90%;
 }
 
-/* line 258, ../sass/style.scss */
+/* line 260, ../sass/style.scss */
 #contactform textarea {
   font-size: 1.5em;
   border-radius: 10px;
   width: 90%;
 }
 
-/* line 264, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 #submit {
   font-size: 1.5em;
   border-radius: 10px;
@@ -274,23 +277,23 @@ ul.dropdown-menu {
   font-family: swatch;
 }
 
-/* line 272, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 #submit:hover {
   box-shadow: 0 0 10px #013768;
 }
 
-/* line 276, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 #submit:active {
   box-shadow: inset 0 0 10px #013768;
 }
 
 /*---------------------------------------------------------------------------- Pricing ---------------------------------------------------------------*/
-/* line 281, ../sass/style.scss */
+/* line 283, ../sass/style.scss */
 #pricing-left {
   margin-bottom: 20px;
 }
 
-/* line 284, ../sass/style.scss */
+/* line 286, ../sass/style.scss */
 #pricing-content p {
   font-size: 1.5em;
   padding-top: 0;
@@ -298,13 +301,13 @@ ul.dropdown-menu {
   cursor: default;
 }
 
-/* line 291, ../sass/style.scss */
+/* line 293, ../sass/style.scss */
 #service-content {
   margin-top: 20px;
   padding: 5px;
 }
 
-/* line 296, ../sass/style.scss */
+/* line 298, ../sass/style.scss */
 #pricing-content h1 {
   padding-bottom: 0;
   margin-bottom: 0;
@@ -314,60 +317,71 @@ ul.dropdown-menu {
   font-weight: bold;
 }
 
-/* line 305, ../sass/style.scss */
+/* line 307, ../sass/style.scss */
 div#mms-pricing {
   margin-top: 0;
-  padding: 10px 20px 20px 20px;
-  margin-bottom: 20px;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 5px;
 }
 
-/* line 311, ../sass/style.scss */
+/* line 313, ../sass/style.scss */
 #pricing-content a {
   font-size: 1.8em;
   color: #191919;
   text-decoration: none;
 }
 
-/* line 317, ../sass/style.scss */
+/* line 320, ../sass/style.scss */
 #pricing-content span {
   font-size: 1.5em;
 }
 
-/* line 321, ../sass/style.scss */
+/* line 324, ../sass/style.scss */
 #pricing-content a:hover {
   color: #053F75;
 }
 
-/* line 325, ../sass/style.scss */
+/* line 328, ../sass/style.scss */
 td {
   font-size: 1.5em;
 }
 
-/* line 329, ../sass/style.scss */
+/* line 332, ../sass/style.scss */
 th {
   text-align: center;
   font-size: 1.5em;
 }
 
-/* line 334, ../sass/style.scss */
+/* line 337, ../sass/style.scss */
 caption {
   font-size: 2em;
   font-weight: bold;
 }
 
-/* line 339, ../sass/style.scss */
+/* line 342, ../sass/style.scss */
 #pricing-content {
   margin-bottom: 10px;
 }
 
-/* line 344, ../sass/style.scss */
+/* line 347, ../sass/style.scss */
 .pricing-disclaimer {
   color: #ccc;
   text-align: center;
 }
 
-/*--------------------------------------------------------------------------- Portfolio -------------------------------------------------------------*/
 /* line 352, ../sass/style.scss */
+#paypal-button form {
+  text-align: center;
+  width: 100%;
+}
+
+/* line 357, ../sass/style.scss */
+#paypal-button form input {
+  margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------------------- Portfolio -------------------------------------------------------------*/
+/* line 365, ../sass/style.scss */
 #heading {
   text-align: center;
   margin-bottom: 30px;
@@ -378,18 +392,18 @@ caption {
   text-shadow: 2px 2px 2px #000;
 }
 
-/* line 362, ../sass/style.scss */
+/* line 375, ../sass/style.scss */
 #portfolio-nav {
   width: 100%;
 }
 
-/* line 366, ../sass/style.scss */
+/* line 379, ../sass/style.scss */
 #portfolio-nav-ul {
   font-size: 1.3em;
   margin-bottom: 20px;
 }
 
-/* line 371, ../sass/style.scss */
+/* line 384, ../sass/style.scss */
 .portfolio-nav-li {
   list-style: none;
   padding: 0;
@@ -398,33 +412,32 @@ caption {
   text-align: center;
 }
 
-/* line 379, ../sass/style.scss */
+/* line 393, ../sass/style.scss */
 .portfolio-nav-a {
   color: #fff;
   padding: 10px;
-  text-decoration: none;
+  text-decoration: none !important;
   font-family: "swatch";
   font-size: 1.3em;
   text-shadow: 2px 2px 2px #000;
 }
 
-/* line 388, ../sass/style.scss */
+/* line 402, ../sass/style.scss */
 .portfolio-nav-li.current a, .portfolio-nav-a:hover {
   color: #ccc !important;
   border: 1px solid #fff;
   background: #024788 url(../img/honeycomb.png);
   border-radius: 5px;
-  box-sizing: border-box;
 }
 
-/* line 396, ../sass/style.scss */
+/* line 410, ../sass/style.scss */
 #gallery {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 402, ../sass/style.scss */
+/* line 416, ../sass/style.scss */
 .gallery-li {
   display: block;
   float: left;
@@ -436,14 +449,14 @@ caption {
   position: relative;
 }
 
-/* line 412, ../sass/style.scss */
+/* line 426, ../sass/style.scss */
 #gallery img {
   width: 100%;
   border-radius: 5px;
 }
 
 /*overlay style */
-/* line 420, ../sass/style.scss */
+/* line 434, ../sass/style.scss */
 .overlay {
   display: none;
   background: #024788 url(../img/honeycomb.png) no-repeat top left;
@@ -462,47 +475,47 @@ caption {
   text-align: center;
 }
 
-/* line 439, ../sass/style.scss */
+/* line 453, ../sass/style.scss */
 .overlay h3 {
   margin: 0;
   padding: 0;
 }
 
-/* line 444, ../sass/style.scss */
+/* line 458, ../sass/style.scss */
 .fancybox-nav {
   width: 60px;
 }
 
-/* line 448, ../sass/style.scss */
+/* line 462, ../sass/style.scss */
 .fancybox-nav span {
   visibility: visible;
 }
 
-/* line 452, ../sass/style.scss */
+/* line 466, ../sass/style.scss */
 .fancybox-next {
   right: 50px;
 }
 
-/* line 456, ../sass/style.scss */
+/* line 470, ../sass/style.scss */
 .fancybox-prev {
   left: 50px;
 }
 
 /*----------------------------------------------------------------------------- About ---------------------------------------------------------------*/
-/* line 463, ../sass/style.scss */
+/* line 477, ../sass/style.scss */
 #photo-container {
   width: 100%;
   text-align: center;
 }
 
-/* line 468, ../sass/style.scss */
+/* line 482, ../sass/style.scss */
 #photo {
   border-radius: 10px;
   margin: 20px auto 30px auto;
   width: 80%;
 }
 
-/* line 475, ../sass/style.scss */
+/* line 489, ../sass/style.scss */
 #about {
   width: 90%;
   font-size: 1.5em;
@@ -511,14 +524,14 @@ caption {
   padding: 20px 25px 10px 25px;
 }
 
-/* line 484, ../sass/style.scss */
+/* line 498, ../sass/style.scss */
 #signature {
   font-family: "Brush Script Std";
 }
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*---------------------------------------------------------------- FOOTER ----------------------------------------------------------------*/
-/* line 495, ../sass/style.scss */
+/* line 509, ../sass/style.scss */
 .footer {
   position: absolute;
   bottom: 0;
@@ -527,12 +540,12 @@ caption {
   height: 60px;
 }
 
-/* line 510, ../sass/style.scss */
+/* line 524, ../sass/style.scss */
 .copyright {
   color: #FFEBCD;
 }
 
-/* line 514, ../sass/style.scss */
+/* line 528, ../sass/style.scss */
 .footer .container {
   min-height: 50px;
   border: 1px solid #222222;
@@ -543,17 +556,17 @@ caption {
   background-image: url(../img/honeycomb.png);
 }
 
-/* line 524, ../sass/style.scss */
+/* line 538, ../sass/style.scss */
 #designer {
   text-align: center;
 }
 
-/* line 529, ../sass/style.scss */
+/* line 543, ../sass/style.scss */
 #back-to-top {
   text-align: right;
 }
 
-/* line 534, ../sass/style.scss */
+/* line 548, ../sass/style.scss */
 .flex-container {
   display: -webkit-box;
   display: -moz-box;
@@ -603,148 +616,145 @@ caption {
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*-----------------------------------------------------------Media Querys-------------------------------------------------------------------*/
 @media (max-width: 1225px) {
-  /* line 586, ../sass/style.scss */
+  /* line 600, ../sass/style.scss */
   .portfolio-nav-a {
     font-size: 1em;
   }
 }
 @media (max-width: 1060px) {
-  /* line 592, ../sass/style.scss */
+  /* line 606, ../sass/style.scss */
   #portfolio-nav-ul {
     text-align: center;
   }
 
-  /* line 595, ../sass/style.scss */
+  /* line 609, ../sass/style.scss */
   .portfolio-nav-li {
     display: inline-block;
     padding: 0;
     margin: 5px;
   }
 
-  /* line 602, ../sass/style.scss */
+  /* line 616, ../sass/style.scss */
   .portfolio-nav-a {
     font-size: 1em;
     margin: 0;
   }
 
-  /* line 608, ../sass/style.scss */
+  /* line 622, ../sass/style.scss */
   div.portfolio-thumbs {
     width: 100%;
   }
 
-  /* line 612, ../sass/style.scss */
+  /* line 626, ../sass/style.scss */
   .flex-container {
     width: 100%;
     justify-content: center;
   }
 
-  /* line 616, ../sass/style.scss */
+  /* line 630, ../sass/style.scss */
   #gallery {
     margin: 0 auto;
   }
 
-  /* line 619, ../sass/style.scss */
+  /* line 633, ../sass/style.scss */
   .portfolio-nav {
     width: 100%;
     margin: 0 auto;
   }
 
-  /* line 624, ../sass/style.scss */
+  /* line 638, ../sass/style.scss */
   #portfolio-nav-ul {
     text-align: center;
     padding: 0;
   }
 
-  /* line 633, ../sass/style.scss */
+  /* line 645, ../sass/style.scss */
   .portfolio-nav-a:hover {
-    color: #ccc !important;
     border: 1px solid #fff;
-    padding: 5px;
     background: #024788 url(../img/honeycomb.png);
-    border-radius: 5px;
     box-sizing: border-box;
   }
 }
 @media (max-width: 1000px) {
-  /* line 647, ../sass/style.scss */
+  /* line 659, ../sass/style.scss */
   #copyright {
     text-align: center;
   }
 
-  /* line 650, ../sass/style.scss */
+  /* line 662, ../sass/style.scss */
   #designer {
     text-align: center;
   }
 
-  /* line 653, ../sass/style.scss */
+  /* line 665, ../sass/style.scss */
   #back-to-top {
     text-align: center;
   }
 }
 @media (max-width: 800px) {
   /*-------------------- Portfolio ------------------------------*/
-  /* line 665, ../sass/style.scss */
+  /* line 677, ../sass/style.scss */
   .gallery-li {
     width: 25%;
     /*-- size of thumbs --*/
   }
 
-  /* line 669, ../sass/style.scss */
+  /* line 681, ../sass/style.scss */
   .portfolio-nav-a {
     font-size: .8em;
     padding: 5px;
     margin: 0;
   }
 
-  /* line 675, ../sass/style.scss */
+  /* line 687, ../sass/style.scss */
   .overlay h3 {
     font-size: .8em;
   }
 
-  /* line 679, ../sass/style.scss */
+  /* line 691, ../sass/style.scss */
   .overlay p {
     display: none;
   }
 
-  /* line 683, ../sass/style.scss */
+  /* line 695, ../sass/style.scss */
   #heading {
     display: none;
   }
 
-  /* line 688, ../sass/style.scss */
+  /* line 700, ../sass/style.scss */
   #service-content td {
     font-size: 1em;
   }
 
   /*--------------------------------------------------------------*/
   /*----------------- Home -----------------------------------*/
-  /* line 695, ../sass/style.scss */
+  /* line 707, ../sass/style.scss */
   .carousel .item {
     height: auto;
   }
 
-  /* line 699, ../sass/style.scss */
+  /* line 711, ../sass/style.scss */
   #photo1 {
     content: url(../img/Camera-mobile.jpg);
   }
 
-  /* line 703, ../sass/style.scss */
+  /* line 715, ../sass/style.scss */
   #photo2 {
     content: url(../img/Lightbulb-mobile.jpg);
   }
 
-  /* line 707, ../sass/style.scss */
+  /* line 719, ../sass/style.scss */
   #photo3 {
     content: url(../img/Network-mobile.jpg);
   }
 }
 @media (max-width: 450px) {
-  /* line 714, ../sass/style.scss */
+  /* line 726, ../sass/style.scss */
   #service-content td {
     font-size: .8em;
   }
 
-  /* line 718, ../sass/style.scss */
+  /* line 730, ../sass/style.scss */
   #service-content th {
     font-size: 1em;
   }
