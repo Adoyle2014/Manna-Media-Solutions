@@ -6,7 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<link rel="icon" href="favicon.jpg">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
 		<title>MMS-Contact</title>
 
@@ -40,7 +41,7 @@
 					</div>
 					<div id="navbar" class="navbar-collapse collapse pull-right">
 						<ul class="nav navbar-nav">
-							<li><a href="Index.html">Home</a></li>
+							<li><a href="index.html">Home</a></li>
 							<li><a href="About.html">About</a></li>								
 							<li><a href="Portfolio.html">Portfolio</a></li>
 							<li><a href="Rates.html">Pricing</a></li>
@@ -71,28 +72,45 @@
 ================================================== -->
 		<div class="container">
 			<div class="row">
-	            		<div class="col-md-4">
+	            		<div class="col-md-5">
 	                		<div class="content-container" id="contact-content">	                    			
 	                        		<div id="mms-contact">
 	                            			<h1>Nick Fisichella</h1>
 	                            			<h3>(727)743-1539</h3>
-	                            			<h3>nick@mannams.com</h3>
-	                        		</div>
+	                            		</div>	
+	                            		<h3>nick@mannamediasolutions.com</h3>
+	                        		
 	                    			<h1>Or Submit The Form</h1>
 	                		</div>
 	            		</div>
-		            	<div class="col-md-8">
+		            	<div class="col-md-7">
 			                <div class="content-container" id="contact-content">
-			                    	<form method="post" action="contact-form-proc.php" name="contactform" id="contactform">                   
-				                        <label for="fullname">Your Name</label><br/>
-				                        <input type="text" id="fullname" size="30" required/>				                        
-				                        <label for="email">Email Address</label><br/>
-				                        <input type="email" id="email" size="30" required/>                      
-				                        <label for="messege">Tell us what you're looking for?</label><br/>
-				                        <textarea type="email" id="messege" rows="5" required></textarea>
-				                        <br/>
-			                        	<input type="submit" name="submit" value="Submit Form" id="submit"/>
-			                    	</form>
+						<form id="contactform" name="contactform" method="post" action="send_form_email.php"> 
+							<div>				 
+								<label for="first_name">First Name *</label>						 
+								<input  type="text" name="first_name" maxlength="50" size="30">			 
+							</div>					 
+							<div>				 
+								<label for="last_name">Last Name *</label>
+								<input  type="text" name="last_name" maxlength="50" size="30">			
+							</div>	 
+							<div>			 
+													 
+								<label for="email">Email Address *</label>	
+								<input  type="text" name="email" maxlength="80" size="30">			
+							</div>	 
+							<div>													 
+								<label for="telephone">Telephone Number</label>
+								<input  type="text" name="telephone" maxlength="30" size="30">			
+							</div>	 
+							<div>
+								<label for="comments">Comments *</label>		 
+								<textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>	 
+							</div>	 
+							<div>													 
+								<input type="submit" value="Submit" id="submit">						 
+							</div>												 
+						</form>
 			                </div>
 				</div><!--col-md-8-->
 	        	</div>
