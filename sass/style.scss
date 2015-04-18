@@ -428,6 +428,7 @@ caption {
   border-radius: 5px;
   overflow: hidden;
   background-color: #111;
+  text-align: center;
 }
 
 #gallery img {
@@ -441,6 +442,14 @@ caption {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.set-height {
+  height: 100%;
+  width: auto !important;
+
+
+
 }
 
 
@@ -706,9 +715,10 @@ caption {
 
 @media(max-width:800px) {
   /*-------------------- Portfolio ------------------------------*/
-  .gallery-li {
-    width: 25%; /*-- size of thumbs --*/
-    }
+  .gallery li {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 
   .portfolio-nav-a {
     font-size: .8em;

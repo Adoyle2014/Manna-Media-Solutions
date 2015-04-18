@@ -1,7 +1,24 @@
 $(document).ready(function() {
 
-	var cw = $('.gallery-li').width();
+
+
+	
+
+	function resizeGalleryLi() {
+		var cw = $('.gallery-li').width();
 	$('.gallery-li').css({'height':cw+'px'});
+	}
+
+	resizeGalleryLi();
+
+	$(window).bind('resize', function(e)
+		{
+		  if (window.RT) clearTimeout(window.RT);
+		  window.RT = setTimeout(function()
+		  {
+		    this.location.reload(false); /* false to get page from cache */
+		  }, 100);
+		});
 
 
 	$('ul#gallery li').each(function() {
