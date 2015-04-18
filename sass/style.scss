@@ -1,18 +1,7 @@
 
-/*--------------------------------------------------------- Fonts & Variables ----------------------------------------------------------*/
-@font-face {
-    font-family: "swatch";
-    src: url(../fonts/SWATRG.TTF);
-}
-
-@font-face {
-    font-family: "cambria";
-    src: url(../fonts/cambria.ttc);
-}
 
 
-$font-headers: swatch, sans-serif;
-$font-body: cambria, sans-serif;
+
 
 
 
@@ -26,18 +15,23 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
   /*background: #777777;*/
-  font-family: $font-body;
+  font-family: 'londonmmregular';
   background-image: url(../img/background-blue.jpg);
 }
 
 a {
-	font-family: swatch;
+	font-family: 'swatch_itregular';
       color: #ccc;
 
     }
 
 .clearfix {
   clear: both;
+}
+
+.hidden-tags {
+  visibility: hidden;
+  position: absolute;
 }
 
 
@@ -127,7 +121,7 @@ li.dropdown:hover {
 .navbar-nav li a {
   color: #fff !important;
   text-transform: capitalize !important;
-  font-family: $font-headers;
+  font-family: 'swatch_itregular';
   font-size: 1.5em;
 }
 
@@ -190,6 +184,11 @@ ul.dropdown-menu {
   color: #fff;
  }
 
+ #index-statement {
+  margin-top: 20px;
+  padding: 10px 20px 20px 20px;
+ }
+
 
 
 
@@ -212,7 +211,7 @@ ul.dropdown-menu {
 }
 
 .carousel-caption a {
-  font-family: swatch;
+  font-family: 'swatch_itregular';
 }
 
 
@@ -270,7 +269,7 @@ ul.dropdown-menu {
   border-radius: 10px;
   margin-top: 20px;  
   font-weight: bold;
-  font-family: swatch;
+  font-family: 'swatch_itregular';
 }
 
 #submit:hover {
@@ -368,7 +367,7 @@ caption {
   text-align: center;
   margin-bottom: 30px;
   font-size: 3em;
-  font-family: "swatch";
+  font-family: 'swatch_itregular';
   text-transform: uppercase;
   color: #fff;
   text-shadow: 2px 2px 2px #000;
@@ -396,7 +395,7 @@ caption {
   color: #fff;
   padding: 10px;
   text-decoration: none !important;
-  font-family: "swatch";
+  font-family: 'swatch_itregular';
   font-size: 1.3em;
   text-shadow: 2px 2px 2px #000;
 }
@@ -490,16 +489,31 @@ caption {
 
 #about {
   width: 90%;
+  margin: 0 auto;
   font-size: 1.5em;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  padding: 20px 25px 10px 25px;
+  padding: 20px 0;
+ 
+  
   
 }
 
 #signature {
-  font-family: "Brush Script Std";
+  font-family: 'honey_scriptlight';
 }
+
+/*----------------------------------------------------------------------------- Thank You  ---------------------------------------------------------------*/
+
+#thanks {
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
 
 
 
