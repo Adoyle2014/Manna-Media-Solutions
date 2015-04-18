@@ -15,12 +15,12 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
   /*background: #777777;*/
-  font-family: 'londonmmregular';
+  font-family: 'Exo 2', sans-serif;
   background-image: url(../img/background-blue.jpg);
 }
 
 a {
-	font-family: 'swatch_itregular';
+	font-family: 'Orbitron', sans-serif;
       color: #ccc;
 
     }
@@ -121,7 +121,7 @@ li.dropdown:hover {
 .navbar-nav li a {
   color: #fff !important;
   text-transform: capitalize !important;
-  font-family: 'swatch_itregular';
+  font-family: 'Orbitron', sans-serif;
   font-size: 1.5em;
 }
 
@@ -133,7 +133,7 @@ li.dropdown:hover {
 
 .dropdown-menu .dropdown-a, .dropdown-menu .divider-title {
   color: #262626;
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-align: center;
   border: none;
   
@@ -211,7 +211,7 @@ ul.dropdown-menu {
 }
 
 .carousel-caption a {
-  font-family: 'swatch_itregular';
+  font-family: 'Orbitron', sans-serif;
 }
 
 
@@ -269,7 +269,7 @@ ul.dropdown-menu {
   border-radius: 10px;
   margin-top: 20px;  
   font-weight: bold;
-  font-family: 'swatch_itregular';
+  font-family: 'Orbitron', sans-serif;
 }
 
 #submit:hover {
@@ -367,7 +367,7 @@ caption {
   text-align: center;
   margin-bottom: 30px;
   font-size: 3em;
-  font-family: 'swatch_itregular';
+  font-family: 'Orbitron', sans-serif;
   text-transform: uppercase;
   color: #fff;
   text-shadow: 2px 2px 2px #000;
@@ -375,11 +375,13 @@ caption {
 
 #portfolio-nav {
   width: 100%;
+  text-align: center;
 }
 
 #portfolio-nav-ul {  
   font-size: 1.3em;
   margin-bottom: 20px;  
+  text-align: center;
 }
 
 .portfolio-nav-li {
@@ -395,7 +397,7 @@ caption {
   color: #fff;
   padding: 10px;
   text-decoration: none !important;
-  font-family: 'swatch_itregular';
+  font-family: 'Orbitron', sans-serif;
   font-size: 1.3em;
   text-shadow: 2px 2px 2px #000;
 }
@@ -415,18 +417,30 @@ caption {
 }
 
 .gallery-li {
-  display: block;
+  
   float: left;
-  width: 23%; /*-- size of thumbs --*/
+  width: 30%; /*-- size of thumbs --*/
+  padding: 0;   
   cursor: pointer;  
   box-sizing: border-box;
-  margin: 0 12px 7px 0;
-  position: relative;
+  margin: 0 auto 7px auto;
+  position: relative;  
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #111;
 }
 
 #gallery img {
+  display: inline-block;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 5px;  
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 
@@ -498,7 +512,7 @@ caption {
 }
 
 #signature {
-  font-family: 'honey_scriptlight';
+  font-family: 'Dancing Script', cursive;
 }
 
 /*----------------------------------------------------------------------------- Thank You  ---------------------------------------------------------------*/

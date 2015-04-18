@@ -1,4 +1,15 @@
 $(document).ready(function() {
+
+	var cw = $('.gallery-li').width();
+	$('.gallery-li').css({'height':cw+'px'});
+
+
+	$('ul#gallery li').each(function() {
+		if(!$(this).hasClass("graphic-design")) {
+			$(this).addClass("hidden");
+		}
+	});
+
 	$('.portfolio-nav-a').on('click', function() {
 		// Current class assignment
 		$('.portfolio-nav-li.current').removeClass('current');
@@ -11,9 +22,9 @@ $(document).ready(function() {
 		var catagory = $(this).text().toLowerCase().replace(' ', '-');
 
 		// remove hidden class if "all projects" is selected
-		if(catagory == 'all-projects') {
+		/*if(catagory == 'graphic-design') {
 			$('ul#gallery li:hidden').fadeIn('slow').removeClass('hidden');
-		} else {
+		} else {*/
 			$('ul#gallery li').each(function() {
 				if(!$(this).hasClass(catagory)) {
 					$(this).fadeOut('slow').addClass('hidden');
@@ -21,7 +32,7 @@ $(document).ready(function() {
 					$(this).fadeIn('slow').removeClass('hidden');
 				}
 			});
-		}
+		
 		// Stop link behaviour
 		return false;		
 	});
