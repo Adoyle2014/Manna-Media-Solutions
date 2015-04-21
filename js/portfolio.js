@@ -71,7 +71,7 @@ $(document).ready(function() {
 
 		var overlay = $(this).children('.overlay');
 
-		overlay.html('<h3>'+title+'</h3><p>'+desc+'</p>')
+		overlay.html('<h3>'+title+'</h3><hr><p>'+desc+'</p>')
 
 		overlay.fadeIn(800);
 	});

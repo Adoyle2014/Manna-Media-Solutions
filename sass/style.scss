@@ -457,7 +457,7 @@ caption {
 
 .overlay {
   display: none;
-  background: #024788 url(../img/honeycomb.png) no-repeat top left;
+  background: #024788 url(../img/Hover-image.jpg) no-repeat top left;
   background-size: cover;
   color: #fff;
   position: absolute;
@@ -471,7 +471,7 @@ caption {
   box-sizing: border-box;
   pointer-events:none;
   text-align: center;
-
+  
 }
 
 .overlay h3 {
@@ -522,6 +522,13 @@ caption {
 
 #signature {
   font-family: 'Dancing Script', cursive;
+}
+
+#diploma {
+  width: 100%;
+  border: 4px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
 }
 
 /*----------------------------------------------------------------------------- Thank You  ---------------------------------------------------------------*/
@@ -640,6 +647,10 @@ caption {
     font-size: 1em;  
   }  
 
+  .overlay p {
+    font-size: .8em;
+  }
+
  
 }
 
@@ -662,6 +673,14 @@ caption {
 
    div.portfolio-thumbs {        
     width: 100%  
+  }
+
+  .overlay h3 {
+    font-size: 1em;
+  }
+
+  .overlay p {
+    font-size: .65em;
   }
 
   .flex-container {

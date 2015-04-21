@@ -486,7 +486,7 @@ caption {
 /* line 458, ../sass/style.scss */
 .overlay {
   display: none;
-  background: #024788 url(../img/honeycomb.png) no-repeat top left;
+  background: #024788 url(../img/Hover-image.jpg) no-repeat top left;
   background-size: cover;
   color: #fff;
   position: absolute;
@@ -555,15 +555,23 @@ caption {
   font-family: 'Dancing Script', cursive;
 }
 
+/* line 527, ../sass/style.scss */
+#diploma {
+  width: 100%;
+  border: 4px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+}
+
 /*----------------------------------------------------------------------------- Thank You  ---------------------------------------------------------------*/
-/* line 529, ../sass/style.scss */
+/* line 536, ../sass/style.scss */
 #thanks {
   padding: 20px;
 }
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*---------------------------------------------------------------- FOOTER ----------------------------------------------------------------*/
-/* line 548, ../sass/style.scss */
+/* line 555, ../sass/style.scss */
 .footer {
   position: absolute;
   bottom: 0;
@@ -572,12 +580,12 @@ caption {
   height: 60px;
 }
 
-/* line 563, ../sass/style.scss */
+/* line 570, ../sass/style.scss */
 .copyright {
   color: #FFEBCD;
 }
 
-/* line 567, ../sass/style.scss */
+/* line 574, ../sass/style.scss */
 .footer .container {
   min-height: 50px;
   background-color: #222222;
@@ -587,17 +595,17 @@ caption {
   background-image: url(../img/honeycomb.png);
 }
 
-/* line 577, ../sass/style.scss */
+/* line 584, ../sass/style.scss */
 #designer {
   text-align: center;
 }
 
-/* line 582, ../sass/style.scss */
+/* line 589, ../sass/style.scss */
 #back-to-top {
   text-align: right;
 }
 
-/* line 587, ../sass/style.scss */
+/* line 594, ../sass/style.scss */
 .flex-container {
   display: -webkit-box;
   display: -moz-box;
@@ -647,59 +655,74 @@ caption {
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*-----------------------------------------------------------Media Querys-------------------------------------------------------------------*/
 @media (max-width: 1225px) {
-  /* line 639, ../sass/style.scss */
+  /* line 646, ../sass/style.scss */
   .portfolio-nav-a {
     font-size: 1em;
   }
+
+  /* line 650, ../sass/style.scss */
+  .overlay p {
+    font-size: .8em;
+  }
 }
 @media (max-width: 1060px) {
-  /* line 647, ../sass/style.scss */
+  /* line 658, ../sass/style.scss */
   #portfolio-nav-ul {
     text-align: center;
   }
 
-  /* line 650, ../sass/style.scss */
+  /* line 661, ../sass/style.scss */
   .portfolio-nav-li {
     display: inline-block;
     padding: 0;
     margin: 5px;
   }
 
-  /* line 657, ../sass/style.scss */
+  /* line 668, ../sass/style.scss */
   .portfolio-nav-a {
     font-size: 1em;
     margin: 0;
   }
 
-  /* line 663, ../sass/style.scss */
+  /* line 674, ../sass/style.scss */
   div.portfolio-thumbs {
     width: 100%;
   }
 
-  /* line 667, ../sass/style.scss */
+  /* line 678, ../sass/style.scss */
+  .overlay h3 {
+    font-size: 1em;
+  }
+
+  /* line 682, ../sass/style.scss */
+  .overlay p {
+    font-size: .65em;
+  }
+
+  /* line 686, ../sass/style.scss */
   .flex-container {
     width: 100%;
     justify-content: center;
   }
 
-  /* line 671, ../sass/style.scss */
+  /* line 690, ../sass/style.scss */
   #gallery {
     margin: 0 auto;
   }
 
-  /* line 674, ../sass/style.scss */
+  /* line 693, ../sass/style.scss */
   .portfolio-nav {
     width: 100%;
     margin: 0 auto;
   }
 
-  /* line 679, ../sass/style.scss */
+  /* line 698, ../sass/style.scss */
   #portfolio-nav-ul {
     text-align: center;
     padding: 0;
   }
 
-  /* line 686, ../sass/style.scss */
+  /* line 705, ../sass/style.scss */
   .portfolio-nav-a:hover {
     border: 1px solid #fff;
     background: #024788 url(../img/honeycomb.png);
@@ -707,85 +730,85 @@ caption {
   }
 }
 @media (max-width: 1000px) {
-  /* line 700, ../sass/style.scss */
+  /* line 719, ../sass/style.scss */
   #copyright {
     text-align: center;
   }
 
-  /* line 703, ../sass/style.scss */
+  /* line 722, ../sass/style.scss */
   #designer {
     text-align: center;
   }
 
-  /* line 706, ../sass/style.scss */
+  /* line 725, ../sass/style.scss */
   #back-to-top {
     text-align: center;
   }
 }
 @media (max-width: 800px) {
   /*-------------------- Portfolio ------------------------------*/
-  /* line 718, ../sass/style.scss */
+  /* line 737, ../sass/style.scss */
   .gallery li {
     margin-left: 5px;
     margin-right: 5px;
   }
 
-  /* line 723, ../sass/style.scss */
+  /* line 742, ../sass/style.scss */
   .portfolio-nav-a {
     font-size: .8em;
     padding: 5px;
     margin: 0;
   }
 
-  /* line 729, ../sass/style.scss */
+  /* line 748, ../sass/style.scss */
   .overlay h3 {
     font-size: .8em;
   }
 
-  /* line 733, ../sass/style.scss */
+  /* line 752, ../sass/style.scss */
   .overlay p {
     display: none;
   }
 
-  /* line 737, ../sass/style.scss */
+  /* line 756, ../sass/style.scss */
   #heading {
     display: none;
   }
 
-  /* line 742, ../sass/style.scss */
+  /* line 761, ../sass/style.scss */
   #service-content td {
     font-size: 1em;
   }
 
   /*--------------------------------------------------------------*/
   /*----------------- Home -----------------------------------*/
-  /* line 749, ../sass/style.scss */
+  /* line 768, ../sass/style.scss */
   .carousel .item {
     height: auto;
   }
 
-  /* line 753, ../sass/style.scss */
+  /* line 772, ../sass/style.scss */
   #photo1 {
     content: url(../img/Camera-mobile.jpg);
   }
 
-  /* line 757, ../sass/style.scss */
+  /* line 776, ../sass/style.scss */
   #photo2 {
     content: url(../img/Lightbulb-mobile.jpg);
   }
 
-  /* line 761, ../sass/style.scss */
+  /* line 780, ../sass/style.scss */
   #photo3 {
     content: url(../img/Network-mobile.jpg);
   }
 }
 @media (max-width: 450px) {
-  /* line 768, ../sass/style.scss */
+  /* line 787, ../sass/style.scss */
   #service-content td {
     font-size: .8em;
   }
 
-  /* line 772, ../sass/style.scss */
+  /* line 791, ../sass/style.scss */
   #service-content th {
     font-size: 1em;
   }
